@@ -7,6 +7,7 @@ import {
   faChargingStation,
   faSun,
   faPhotoVideo,
+  faPersonMilitaryToPerson,
 } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/navbar";
 import SEO from "../components/seo";
@@ -16,12 +17,12 @@ export default function Portfolio() {
   return (
     <>
       <SEO
-        title="Portfolio | del SOL"
-        description="Portfolio del SOL. Early-stage VC in biotech, cleantech, foodtech & mobility."
+        title="Portfolio | 0xaloysius"
+        description="Portfolio 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
       <div className="main">
         <Navbar />
-        <SectionTitle pretitle="Portfolio" title="del SOL Mission Statement">
+        <SectionTitle pretitle="Portfolio" title="The 0x Mission Statement">
           "Our mission is to support Southern Californian start-ups and
           communities to create sustainable, renewable & secure platforms."
         </SectionTitle>
@@ -55,31 +56,33 @@ export default function Portfolio() {
 
 function Card1() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueGray-700 border-solid">
-      <h5 className="uppercase text-trueGray-700 dark:text-trueGray-100 text-xl leading-tight font-medium mb-2 py-3  border-b border-trueGray-200">
-        Foodtech
+    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
+      <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
+        Lexington Tech LLC.
       </h5>
       <div>
         <Image
-          className="p-6 bg-cover bg-no-repeat bg-trueGray-700"
+          className="p-6 bg-cover bg-no-repeat bg-truePurple-500"
           src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-304181b3182265078bad3744c08e8ab6.png"
           height="300"
           width="300"
           layout="responsive"
         />
-        <p className="text-trueGray-100 text-md mb-4">
-          Vertical systems. <br />
-          Climate-controlled.. <br />
-          Reduced emissions.
+        <p className="text-trueZinc-100 text-md mb-4">
+          BTAB Group
+          <br />
+          Management Consulting.
+          <br />
+          Technology Innovation.
         </p>
       </div>
-      <div className="border-t border-trueGray-200 py-3 w-full text-sm text-trueGray-700 dark:text-trueGray-100">
+      <div className="border-t border-trueZinc-200 py-3 w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
         <FontAwesomeIcon
           icon={faPepperHot} //"fa-solid fa-pepper-hot"
           className="text-red-700 dark:text-red-400 pr-2"
           aria-hidden="true"
         />{" "}
-        Nature. Meet Nuture.
+        Public Company.
       </div>
     </div>
   );
@@ -87,25 +90,25 @@ function Card1() {
 
 function Card2() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueGray-700 border-solid">
-      <h5 className="uppercase text-trueGray-700 dark:text-trueGray-100 text-xl leading-tight font-medium mb-2 py-3  border-b border-trueGray-200">
+    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
+      <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
         Cybersecurity
       </h5>
       <div>
         <Image
-          className="p-6 bg-cover bg-no-repeat bg-trueGray-700"
+          className="p-6 bg-cover bg-no-repeat bg-truePurple-500"
           src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-4dd5fd75c6118b7161fca2ffd991842a.png"
           height="300"
           width="300"
           layout="responsive"
         />
-        <p className="text-trueGray-100 text-md mb-4">
+        <p className="text-trueZinc-100 text-md mb-4">
           Digital Identity. <br />
           Data Privacy. <br />
           Privacy Protection Toolkits.
         </p>
       </div>
-      <div className="border-t border-trueGray-200 py-3  w-full text-sm text-trueGray-700 dark:text-trueGray-100">
+      <div className="border-t border-trueZinc-200 py-3  w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
         <FontAwesomeIcon
           icon={faShieldCat} //"fa-solid fa-pepper-hot"
           className="text-trueSky-700 dark:text-trueSky-400 pr-2"
@@ -119,25 +122,25 @@ function Card2() {
 
 function Card3() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueGray-700 border-solid">
-      <h5 className="uppercase text-trueGray-700 dark:text-trueGray-100 text-xl leading-tight font-medium mb-2 py-3 border-b border-trueGray-200">
+    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
+      <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
         Cleantech
       </h5>
       <div>
         <Image
-          className="p-6 bg-cover bg-no-repeat bg-trueGray-700"
+          className="p-6 bg-cover bg-no-repeat bg-truePurple-500"
           src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-5ef96019d86f8e5221c37d9733cb5492.png"
           height="300"
           width="300"
           layout="responsive"
         />
-        <p className="text-trueGray-100 text-md mb-4">
+        <p className="text-trueZinc-100 text-md mb-4">
           Offgrid Solutions <br />
           Solid State Batteries. <br />
           Community Renewal.
         </p>
       </div>
-      <div className="border-t border-trueGray-200 py-3 w-full text-sm text-trueGray-700 dark:text-trueGray-100">
+      <div className="border-t border-trueZinc-200 py-3 w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
         <FontAwesomeIcon
           icon={faSeedling} //"fa-solid fa-pepper-hot"
           className="text-green-700 dark:text-green-400 pr-2"
@@ -151,25 +154,25 @@ function Card3() {
 
 function Card4() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueGray-700 border-solid">
-      <h5 className="uppercase text-trueGray-700 dark:text-trueGray-100 text-xl leading-tight font-medium mb-2 py-3 border-b border-trueGray-200">
+    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
+      <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
         Mobility
       </h5>
       <div>
         <Image
-          className="p-6 bg-cover bg-no-repeat bg-trueGray-700"
+          className="p-6 bg-cover bg-no-repeat bg-truePurple-500"
           src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-5af1ef6e7de4a6e775448b69ac0a9851.png"
           height="300"
           width="300"
           layout="responsive"
         />
-        <p className="text-trueGray-100 text-md mb-4">
+        <p className="text-trueZinc-100 text-md mb-4">
           Hybrid EV. <br />
           EV Infrastructure. <br />
           Renewalable Energy. <br />
         </p>
       </div>
-      <div className="border-t border-trueGray-200 py-3 w-full text-sm text-trueGray-700 dark:text-trueGray-100">
+      <div className="border-t border-trueZinc-200 py-3 w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
         <FontAwesomeIcon
           icon={faChargingStation} //"fa-solid fa-pepper-hot"
           className="text-purple-700 dark:text-purple-400 pr-2"
@@ -183,28 +186,28 @@ function Card4() {
 
 function Card5() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueGray-700 border-solid">
-      <h5 className="uppercase text-trueGray-700 dark:text-trueGray-100 text-xl leading-tight font-medium mb-2 py-3 px-6 border-b border-trueGray-200">
-        Creators
+    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
+      <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
+        SAVI
       </h5>
       <div>
         <Image
-          className="p-6 bg-cover bg-no-repeat bg-trueGray-700"
+          className="p-6 bg-cover bg-no-repeat bg-truePurple-500"
           src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-f701b63cfe38e57fa0408c238af32027.png"
           height="300"
           width="300"
           layout="responsive"
         />
-        <p className="text-trueGray-100 text-md mb-4">
-          Create. <br />
-          Socalize. <br />
-          Influence. <br />
+        <p className="text-trueZinc-100 text-md mb-4">
+          Transition 3. <br />
+          Veteran Integration. <br />
+          VA Benefits. <br />
         </p>
       </div>
-      <div className="border-t border-trueGray-200 py-3 w-full text-sm text-trueGray-700 dark:text-trueGray-100">
+      <div className="border-t border-trueZinc-200 py-3 w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
         <FontAwesomeIcon
-          icon={faPhotoVideo} //"fa-solid fa-pepper-hot"
-          className="text-white pr-2"
+          icon={faPersonMilitaryToPerson} //"fa-solid fa-pepper-hot"
+          className="text-green-500 pr-2"
           aria-hidden="true"
         />{" "}
         Content. Partners.
@@ -215,25 +218,25 @@ function Card5() {
 
 function Card6() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueGray-700 border-solid">
-      <h5 className="text-trueGray-700 dark:text-trueGray-100 text-xl leading-tight font-medium mb-2 py-3 px-6 border-b border-trueGray-200">
-        del SOL
+    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
+      <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
+        0xaloysius
       </h5>
       <div>
         <Image
-          className="p-6 bg-cover bg-no-repeat bg-trueGray-700"
+          className="p-6 bg-cover bg-no-repeat bg-truePurple-500"
           src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-3c3a259ced051ff05ebf18363560f8a3.png"
           height="300"
           width="300"
           layout="responsive"
         />
-        <p className="text-trueGray-100 text-md mb-4">
+        <p className="text-trueZinc-100 text-md mb-4">
           Discover. <br />
           Energize. <br />
           Explore. <br />
         </p>
       </div>
-      <div className="border-t border-trueGray-200 py-3 w-full text-sm text-trueGray-700 dark:text-trueGray-100">
+      <div className="border-t border-trueZinc-200 py-3 w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
         <FontAwesomeIcon
           icon={faSun} //"fa-solid fa-pepper-hot"
           className="text-yellow-700 dark:text-yellow-400 pr-2"

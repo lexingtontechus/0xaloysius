@@ -17,7 +17,7 @@ const ThemeChanger = () => {
       {theme === "dark" ? (
         <button
           onClick={() => setTheme("light")}
-          className="rounded-full outline-none focus:outline-none"
+          className="rounded-full outline-none focus:outline-none fill-red-500 dark:fill-yellow-300 "
         >
           <span className="sr-only">Light Mode</span>
           <Surf />
@@ -25,7 +25,7 @@ const ThemeChanger = () => {
       ) : (
         <button
           onClick={() => setTheme("dark")}
-          className=" rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-orange-100 focus:ring-opacity-20"
+          className="fill-red-500 dark:fill-yellow-300 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-orange-100 focus:ring-opacity-20"
         >
           <span className="sr-only">Dark Mode</span>
           <Beach />

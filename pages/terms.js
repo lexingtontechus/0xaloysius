@@ -8,11 +8,11 @@ export default function Terms() {
   return (
     <>
       <SEO
-        title="Terms | del SOL"
-        description="Terms del SOL. Early-stage VC in biotech, cleantech, foodtech & mobility."
+        title="Terms | 0xaloysius"
+        description="Terms 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
       <Navbar transparent />
-      <main className="text-trueGray-700">
+      <main className="text-trueZinc-700">
         <div className="relative py-8 flex content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
@@ -24,7 +24,7 @@ export default function Terms() {
                   >
                     Terms & Conditions
                   </Text>
-                  <Text className="mt-4 text-lg text-trueGray-200">
+                  <Text className="mt-4 text-lg text-trueZinc-200">
                     Last Updated 1 Jan {new Date().getFullYear()}
                   </Text>
                   <Image
@@ -40,26 +40,26 @@ export default function Terms() {
           </div>
         </div>
 
-        <section className="relative py-4 text-trueGray-700">
+        <section className="relative py-4 text-trueZinc-700">
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full  ml-auto mr-auto px-4">
                 <Text h2 className="uppercase text-2xl ">
                   Terms & Conditions Notice
                 </Text>
-                <Text className="mt-4 text-lg text-trueGray-200">
+                <Text className="mt-4 text-lg text-trueZinc-200">
                   Last Updated 1 Jan {new Date().getFullYear()}
                 </Text>
                 <Text>
                   These Terms of Use constitute a legally binding agreement made
                   between you, whether personally or on behalf of an entity
-                  (“you”) and del SOL VENTURES INC, doing business as del SOL
-                  (“SOL“, “we”, “us”, or “our”), concerning your access to and
-                  use of the http://delsolventures.nft website as well as any
-                  other media form, media channel, mobile website or mobile
-                  application related, linked, or otherwise connected thereto
-                  (collectively, the “Site”). The Site provides an online
-                  marketplace for the following goods, products, and/or
+                  (“you”) and 0xaloysius Inc., doing business as
+                  0xaloysius ("0xaloysius", “we”, “us”, or “our”), concerning your
+                  access to and use of the http://0xaloysius.x website as well
+                  as any other media form, media channel, mobile website or
+                  mobile application related, linked, or otherwise connected
+                  thereto (collectively, the “Site”). The Site provides an
+                  online marketplace for the following goods, products, and/or
                   services: Consulting, management & business services (the
                   “Marketplace Offerings”). In order to help make the Site a
                   secure environment for the purchase and sale of Marketplace
@@ -103,14 +103,14 @@ export default function Terms() {
                   the Site or use the Marketplace Offerings.
                 </Text>
               </div>
-              <Collapse.Group splitted className="text-trueGray-700">
+              <Collapse.Group splitted className="text-trueZinc-700">
                 <Collapse
                   title="INTELLECTUAL PROPERTY RIGHTS"
                   expanded
                   color="#f3f4f6"
-                  className="text-trueGray-700"
+                  className="text-trueZinc-700"
                 >
-                  <Text className="text-trueGray-700">
+                  <Text className="text-trueZinc-700">
                     Unless otherwise indicated, the Site and the Marketplace
                     Offerings are our proprietary property and all source code,
                     databases, functionality, software, website designs, audio,
@@ -123,7 +123,7 @@ export default function Terms() {
                     States, international copyright laws, and international
                     conventions.
                   </Text>
-                  <Text className="text-trueGray-700">
+                  <Text className="text-trueZinc-700">
                     The Content and the Marks are provided on the Site “AS IS”
                     for your information and personal use only. Except as
                     expressly provided in these Terms of Use, no part of the
@@ -143,9 +143,9 @@ export default function Terms() {
                 </Collapse>
                 <Collapse
                   title="USER REPRESENTATIONS"
-                  className="text-trueGray-700"
+                  className="text-trueZinc-700"
                 >
-                  <Text className="text-trueGray-700">
+                  <Text className="text-trueZinc-700">
                     By using the Site or the Marketplace Offerings, you
                     represent and warrant that: (1) you have the legal capacity
                     and you agree to comply with these Terms of Use; (2) you are
@@ -598,10 +598,10 @@ export default function Terms() {
                 <Collapse title="PRIVACY POLICY">
                   <Text>
                     We care about data privacy and security. Please review our
-                    Privacy Policy: https://delsolventures.nft/privacy. By using
-                    the Site or the Marketplace Offerings, you agree to be bound
-                    by our Privacy Policy, which is incorporated into these
-                    Terms of Use. Please be advised the Site and the Marketplace
+                    Privacy Policy: https://0xaloysius.x/privacy. By using the
+                    Site or the Marketplace Offerings, you agree to be bound by
+                    our Privacy Policy, which is incorporated into these Terms
+                    of Use. Please be advised the Site and the Marketplace
                     Offerings are hosted in the United States. If you access the
                     Site or the Marketplace Offerings from any other region of
                     the world with laws or other requirements governing personal
@@ -926,7 +926,7 @@ export default function Terms() {
                     please contact us at:
                   </Text>
                   <Text>
-                    del SOL VENTURES INC.
+                    0xaloysius Inc.
                     <br />
                     16192 Coastal Highway
                     <br />
