@@ -22,22 +22,20 @@ export default function About() {
       <main className="about-page h-full">
         <section className="relative py-16 ">
           <div className="container mx-auto px-4">
-            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-xl rounded-lg mt-32 bg-gradient-to-l from-trueSky-600">
+            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-xl rounded-lg mt-32 bg-gradient-to-l from-truePurple-400 to-truePurple-600">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative -mt-32">
                       <Link href="/" alt="Home">
-                        <a>
-                          <Image
-                            alt="del SOL VENTURES"
-                            src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/logo-dsvi-light.svg"
-                            height={150}
-                            width={150}
-                            layout="responsive"
-                            className="hover:border-trueGray-600 rounded-half h-auto align-middle border-2 max-w-150-px px-2 py-2 focus:bg-trueGray-500"
-                          />
-                        </a>
+                        <Image
+                          alt="0xaloysius"
+                          src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/logo-dsvi-light.svg"
+                          height={150}
+                          width={150}
+                          layout="responsive"
+                          className="hover:border-trueZinc-600 rounded-half h-auto align-middle border-2 max-w-150-px px-2 py-2 focus:bg-trueZinc-500"
+                        />
                       </Link>
                     </div>
                   </div>
@@ -45,10 +43,10 @@ export default function About() {
                     <div className="py-6 px-3 mt-16 sm:mt-0">
                       <Link href="/contact">
                         <button
-                          className="border-2 border-solid border-trueGray-600  bg-trueSky-600 active:bg-trueGray-600 uppercase text-trueGray-700 dark:text-trueGray-100 font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                          className="border-2 border-solid border-trueZinc-600  bg-trueSky-600 active:bg-trueZinc-600 uppercase text-trueZinc-700 dark:text-trueZinc-100 font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
                           type="button"
                         >
-                          <a href="/contact">Contact</a>
+                          Contact
                         </button>
                       </Link>
                     </div>
@@ -56,41 +54,35 @@ export default function About() {
                   <div className="w-full lg:w-4/12 px-4 lg:order-1">
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
-                        <span className="hover:border-trueOrange-600 text-xl font-bold block uppercase tracking-wide text-trueGray-700 dark:text-trueGray-100">
-                          <Link href="https://www.linkedin.com/company/delsolventures/">
-                            <a
-                              href="https://www.linkedin.com/company/delsolventures/"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <LinkedInLogo />
-                            </a>
+                        <span className="hover:border-trueOrange-600 text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">
+                          <Link
+                            href="https://www.linkedin.com/in/0xaloysius/"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <LinkedInLogo />
                           </Link>
                         </span>
                       </div>
                       <div className="mr-4 p-3 text-center">
-                        <span className="hover:border-trueOrange-600 text-xl font-bold block uppercase tracking-wide text-trueGray-700 dark:text-trueGray-100">
-                          <Link href="https://discord.gg/adnE56ct3D">
-                            <a
-                              href="https://discord.gg/adnE56ct3D"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <DiscordLogo />
-                            </a>
+                        <span className="hover:border-trueOrange-600 text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">
+                          <Link
+                            href="https://discord.gg/adnE56ct3D"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <DiscordLogo />
                           </Link>
                         </span>
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
-                        <span className=" text-xl font-bold block uppercase tracking-wide text-trueGray-700 dark:text-trueGray-100">
-                          <Link href="https://ud.me/delsolventures.nft">
-                            <a
-                              href="https://ud.me/delsolventures.nft"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <UDLogo />
-                            </a>
+                        <span className=" text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">
+                          <Link
+                            href="https://ud.me/0xaloysius.x"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <UDLogo />
                           </Link>
                         </span>
                       </div>
@@ -98,48 +90,48 @@ export default function About() {
                   </div>
                 </div>
                 <div className="text-center mt-8">
-                  <h3 className="text-3xl font-semibold leading-normal my-4 text-trueGray-700 dark:text-trueGray-100">
-                    del SOL VENTURES INC.
+                  <h3 className="text-3xl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
+                    0xaloysius Inc.
                   </h3>
-                  <div className="text-sm leading-normal mt-0 my-4 text-trueGray-700 dark:text-trueGray-100 font-bold uppercase">
+                  <div className="text-sm leading-normal mt-0 my-4 text-trueZinc-700 dark:text-trueZinc-100 font-bold uppercase">
                     <FontAwesomeIcon
                       icon={faLocationDot} //"fa-solid fa-location-dot "
-                      className="mr-2 text-lg text-trueGray-700 dark:text-trueGray-100"
+                      className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
                       aria-hidden="true"
                     />
                     Los Angeles, California
                   </div>
-                  <div className="text-sm leading-normal mt-0 my-4 text-trueGray-700 dark:text-trueGray-100 font-bold lowercase">
+                  <div className="text-sm leading-normal mt-0 my-4 text-trueZinc-700 dark:text-trueZinc-100 font-bold lowercase">
                     <FontAwesomeIcon
                       icon={faAt} //"fa-solid fa-at "
-                      className="mr-2 text-lg text-trueGray-700 dark:text-trueGray-100"
+                      className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
                       aria-hidden="true"
                     />
-                    <span>delsolsventures@skiff.com</span>
+                    <span>0xaloysius@skiff.com</span>
                   </div>
 
-                  <div className="text-trueGray-700 dark:text-trueGray-100 mx-4">
+                  <div className="text-trueZinc-700 dark:text-trueZinc-100 mx-4">
                     <p className="italic mt-2 ">
                       "Building strategic partnerships focused on innovative &
                       sustainable solutions.".
                     </p>
                   </div>
                 </div>
-                <div className="mt-8 py-10 border-t border-trueGray-200 text-center">
+                <div className="mt-8 py-10 border-t border-trueZinc-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <h3 className="text-xl font-semibold leading-normal my-2 text-trueGray-700 dark:text-trueGray-100">
+                      <h3 className="text-xl font-semibold leading-normal my-2 text-trueZinc-700 dark:text-trueZinc-100">
                         Creating bold investment strategies in innovative
                         sustainable & diverse companies & platforms.
                       </h3>
-                      <h3 className="text-xl font-semibold leading-normal my-4 text-trueGray-700 dark:text-trueGray-100">
+                      <h3 className="text-xl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
                         Our focus being on,
                       </h3>
-                      <div className="my-8 text-lg leading-relaxed text-trueGray-700 dark:text-trueGray-100">
+                      <div className="my-8 text-lg leading-relaxed text-trueZinc-700 dark:text-trueZinc-100">
                         <p className="my-4">
                           <FontAwesomeIcon
                             icon="fa-solid fa-plug-circle-bolt"
-                            className="mr-2 text-lg text-trueGray-700 dark:text-trueGray-100 "
+                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100 "
                             aria-hidden="true"
                           />
                           Energy storage & efficiency
@@ -147,7 +139,7 @@ export default function About() {
                         <p className="my-4">
                           <FontAwesomeIcon
                             icon="fa-solid fa-building-wheat"
-                            className="mr-2 text-lg text-trueGray-700 dark:text-trueGray-100 "
+                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100 "
                             aria-hidden="true"
                           />
                           Food & Agritech systems
@@ -155,7 +147,7 @@ export default function About() {
                         <p className="my-4">
                           <FontAwesomeIcon
                             icon="fa-solid fa-compass"
-                            className="mr-2 text-lg text-trueGray-700 dark:text-trueGray-100"
+                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
                             aria-hidden="true"
                           />
                           Mobility as a service
