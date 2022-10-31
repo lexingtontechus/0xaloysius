@@ -1,10 +1,11 @@
 import { Collapse, Text, Link } from "@nextui-org/react";
 import Image from "next/image";
-import Navbar from "../components/navbar";
-//import Footer from "../components/footer";
 import SEO from "../components/seo";
 import Privacy_CCPA from "./privacy_ccpa.js";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import PopupWidget from "../components/popupWidget";
+
 export default function Privacy() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Privacy() {
         title="Privacy | 0xaloysius"
         description="Privacy 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
-      <Navbar transparent />
+      <Navbar />
       <main>
         <div className="relative py-8 content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
@@ -500,6 +501,7 @@ export default function Privacy() {
           </div>
         </section>
       </main>
+      <Footer />
       <PopupWidget />
     </>
   );

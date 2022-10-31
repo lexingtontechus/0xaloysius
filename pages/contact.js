@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Image } from "@nextui-org/react";
 import { useForm, useWatch } from "react-hook-form";
 import { Disclosure, Transition } from "@headlessui/react";
-import SEO from "../components/seo";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import SEO from "../components/seo";
 import SectionTitle from "../components/sectionTitle";
 
 export default function Contact() {
@@ -13,9 +13,9 @@ export default function Contact() {
     handleSubmit,
     reset,
     control,
-    formState: { errors, isSubmitSuccessful, isSubmitting }
+    formState: { errors, isSubmitSuccessful, isSubmitting },
   } = useForm({
-    mode: "onTouched"
+    mode: "onTouched",
   });
   const [isSuccess, setIsSuccess] = useState(false);
   const [Message, setMessage] = useState("");
@@ -28,9 +28,9 @@ export default function Contact() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json"
+        Accept: "application/json",
       },
-      body: JSON.stringify(data, null, 2)
+      body: JSON.stringify(data, null, 2),
     })
       .then(async (response) => {
         let json = await response.json();
@@ -63,7 +63,7 @@ export default function Contact() {
             className="absolute top-0 w-full h-full bg-top bg-contain bg-no-repeat"
             style={{
               backgroundImage:
-                "url('https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-5023748687d870ad70616886e76ea6d6.png')"
+                "url('https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-5023748687d870ad70616886e76ea6d6.png')",
               //"url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
             }}
           >
@@ -119,7 +119,7 @@ export default function Contact() {
                       placeholder="John Doe"
                       {...register("name", {
                         required: "Full name is required",
-                        maxLength: 80
+                        maxLength: 80,
                       })}
                       className={`w-full px-3 py-2 placeholder-trueGray-300 bg-white border border-trueGray-300 rounded-md focus:outline-none focus:ring   ${
                         errors.name
@@ -148,8 +148,8 @@ export default function Contact() {
                         required: "Enter your email",
                         pattern: {
                           value: /^\S+@\S+$/i,
-                          message: "Please enter a valid email"
-                        }
+                          message: "Please enter a valid email",
+                        },
                       })}
                       placeholder="you@company.com"
                       className={`w-full px-3 py-2 placeholder-trueGray-300 bg-white border border-trueGray-300 rounded-md focus:outline-none focus:ring   ${
@@ -178,7 +178,7 @@ export default function Contact() {
                       rows="4"
                       id="message"
                       {...register("message", {
-                        required: "Enter your Message"
+                        required: "Enter your Message",
                       })}
                       placeholder="Your Message"
                       className={`w-full px-3 py-2 placeholder-trueGray-300 bg-white border border-trueGray-300 rounded-md h-28 focus:outline-none focus:ring   ${
@@ -308,6 +308,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { CssBaseline } from "@nextui-org/react";
+
 import Script from "next/script";
+import Navbar from "../components/navbar";
 import Footer from "../components/footermini";
 
 //import Head from "next/head";
@@ -19,11 +20,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {CssBaseline.flush()}
-
           <meta name="title" content="del SOL" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://delsolventures.nft/" />
+          <meta property="og:url" content="https://0xaloysius.x/" />
           <meta property="og:title" content="del SOL VENTURES" />
           <meta
             property="og:description"
@@ -37,7 +36,7 @@ class MyDocument extends Document {
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
-            content="https://twitter.com/delsolventures"
+            content="https://twitter.com/0xaloysius"
           />
           <meta property="twitter:title" content="del SOL" />
           <meta
@@ -62,10 +61,9 @@ class MyDocument extends Document {
             href="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/logo-ds.png"
           />
         </Head>
-        <body className="lightmode dark:darkmode  ">
+        <body className="lightmode dark:darkmode">
           <Main />
           <NextScript />
-          <Footer />
         </body>
       </Html>
     );

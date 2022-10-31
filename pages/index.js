@@ -1,14 +1,13 @@
 import Hero from "../components/hero";
-import Navbar from "../components/navbar";
-
 import SectionTitle from "../components/sectionTitle";
 import SEO from "../components/seo";
 //import Video from "../components/video";
-import Footer from "../components/footer";
 //import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         title="Home | del SOL"
         description="Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
-
       <Navbar />
       <Hero />
       <SectionTitle
@@ -34,6 +32,7 @@ export default function Home() {
       </SectionTitle>
       <Faq />
       <Cta />
+      <Footer />
       <PopupWidget />
     </>
   );

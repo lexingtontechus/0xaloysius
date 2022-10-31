@@ -1,9 +1,10 @@
 import { Collapse, Text, Link, Table } from "@nextui-org/react";
 import Image from "next/image";
-import Navbar from "../components/navbar";
-//import Footer from "../components/footer";
 import SEO from "../components/seo";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import PopupWidget from "../components/popupWidget";
+
 export default function Terms() {
   return (
     <>
@@ -11,7 +12,7 @@ export default function Terms() {
         title="Terms | 0xaloysius"
         description="Terms 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
-      <Navbar transparent />
+      <Navbar />
       <main className="text-trueZinc-700">
         <div className="relative py-8 flex content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
@@ -53,13 +54,13 @@ export default function Terms() {
                 <Text>
                   These Terms of Use constitute a legally binding agreement made
                   between you, whether personally or on behalf of an entity
-                  (“you”) and 0xaloysius Inc., doing business as
-                  0xaloysius ("0xaloysius", “we”, “us”, or “our”), concerning your
-                  access to and use of the http://0xaloysius.x website as well
-                  as any other media form, media channel, mobile website or
-                  mobile application related, linked, or otherwise connected
-                  thereto (collectively, the “Site”). The Site provides an
-                  online marketplace for the following goods, products, and/or
+                  (“you”) and 0xaloysius Inc., doing business as 0xaloysius
+                  ("0xaloysius", “we”, “us”, or “our”), concerning your access
+                  to and use of the http://0xaloysius.x website as well as any
+                  other media form, media channel, mobile website or mobile
+                  application related, linked, or otherwise connected thereto
+                  (collectively, the “Site”). The Site provides an online
+                  marketplace for the following goods, products, and/or
                   services: Consulting, management & business services (the
                   “Marketplace Offerings”). In order to help make the Site a
                   secure environment for the purchase and sale of Marketplace
@@ -940,6 +941,7 @@ export default function Terms() {
           </div>
         </section>
       </main>
+      <Footer />
       <PopupWidget />
     </>
   );

@@ -6,17 +6,17 @@ import { faLocationDot, faAt } from "@fortawesome/free-solid-svg-icons";
 //import Image from "next/image";
 import SectionTitle from "../components/sectionTitle";
 import SEO from "../components/seo";
-import Navbar from "../components/navbar.js";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import PopupWidget from "../components/popupWidget";
-//import FooterMini from "../components/footermini.js";
 //import Testimonials from "../components/testimonials.js";
 
 export default function About() {
   return (
     <>
       <SEO
-        title="About | del SOL"
-        description="About del SOL. Early-stage VC in biotech, cleantech, foodtech & mobility."
+        title="About | 0xaloysius"
+        description="About 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
       <Navbar />
       <main className="about-page h-full">
@@ -161,6 +161,7 @@ export default function About() {
           </div>
         </section>
       </main>
+      <Footer />
       <PopupWidget />
     </>
   );
