@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { GraphQLClient } from "graphql-request";
 import Image from "next/image";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
 
 export async function getStaticProps() {
   const hygraph = new GraphQLClient(
@@ -13,13 +11,13 @@ export async function getStaticProps() {
   const { portfolios } = await hygraph.request(
     `
       {
-        portfolios {
-    name
+        portfolio(where: {id: "cl9vv0uzgluol0alpdbnqx5ti"}) {
+    id
+   name
     position
     url
     description
     logopath
-    
   }
       }
     `
@@ -31,8 +29,7 @@ export async function getStaticProps() {
     },
   };
 }
-
-export default ({ portfolios }) =>
+export default  ({ portfolios }) =>
   portfolios.map(({ name, description, position, url, logopath }) => (
     <div className="w-full sm:w-1/3 p-4">
       <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">

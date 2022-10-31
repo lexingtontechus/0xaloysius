@@ -1,19 +1,15 @@
-# del SOL VENTURES
-
-Built with Next.js, NextUI & TailwindCSS.
-
-![image](https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/delsolendlesssummer.png)
+![image](https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/0xaloysius.svg)
 
 ### 1\. Clone this Repository
 
 ```bash
-git clone https://github.com/delsolventures/delsol.git
+git clone https://github.com/0xaloysius/0xaloysius.git
 ```
 
 ### 2\. Navigate to the directory
 
 ```
-cd delsol
+cd 0xaloysius
 ```
 
 ### 3\. Install dependencies
@@ -36,8 +32,8 @@ npm run dev
 
 Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/delsolventures/delsol)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/0xaloysius/0xaloysius)
 
 ## Author
 
-del SOL VENTURES INC. ( [@delsolventures](https://delsolventures.nft/) )
+0xaloysus Inc. ( [@0xaloysius](https://0xaloysius.x/) )

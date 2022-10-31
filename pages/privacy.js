@@ -1,18 +1,19 @@
 import { Collapse, Text, Link } from "@nextui-org/react";
 import Image from "next/image";
-import Navbar from "../components/navbar";
-//import Footer from "../components/footer";
 import SEO from "../components/seo";
 import Privacy_CCPA from "./privacy_ccpa.js";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import PopupWidget from "../components/popupWidget";
+
 export default function Privacy() {
   return (
     <>
       <SEO
-        title="Privacy | del SOL"
-        description="Privacy del SOL. Early-stage VC in biotech, cleantech, foodtech & mobility."
+        title="Privacy | 0xaloysius"
+        description="Privacy 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
-      <Navbar transparent />
+      <Navbar />
       <main>
         <div className="relative py-8 content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
@@ -21,11 +22,11 @@ export default function Privacy() {
                 <div className="pr-12">
                   <Text
                     h1
-                    className="uppercase text-trueGray-100 font-semibold text-5xl"
+                    className="uppercase text-trueZinc-100 font-semibold text-5xl"
                   >
                     Privacy Notice
                   </Text>
-                  <Text className="mt-4 text-lg text-trueGray-100">
+                  <Text className="mt-4 text-lg text-trueZinc-100">
                     Last Updated 1 Jan {new Date().getFullYear()}
                   </Text>
                   <Image
@@ -45,25 +46,26 @@ export default function Privacy() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full ml-auto mr-auto px-4">
-                <Text h2 className="uppercase text-2xl text-trueGray-700">
+                <Text h2 className="uppercase text-2xl text-trueZinc-700">
                   Privacy Notice
                 </Text>
-                <Text className="mt-4 text-lg text-trueGray-100">
+                <Text className="mt-4 text-lg text-trueZinc-100">
                   Last Updated 1 Jan {new Date().getFullYear()}
                 </Text>
-                <Collapse.Group splitted className="text-trueGray-700">
+                <Collapse.Group splitted className="text-trueZinc-700">
                   <Collapse title="GENERAL NOTICE" expanded>
                     <Text>
-                      Thank you for choosing to be part of our community at 4MB
-                      INC, doing business as del SOL ("del SOL VENTURES INC.,"
-                      "we," "us," or "our"). We are committed to protecting your
-                      personal information and your right to privacy. If you
-                      have any questions or concerns about this privacy notice
-                      or our practices with regard to your personal information,
-                      please contact us at 4mb@ud.me. This privacy notice
-                      describes how we might use your information if you:
+                      Thank you for choosing to be part of our community at
+                      0xaloysius Inc., doing business as 0xaloysius ("0xaloysius
+                      Inc.," "we," "us," or "our"). We are committed to
+                      protecting your personal information and your right to
+                      privacy. If you have any questions or concerns about this
+                      privacy notice or our practices with regard to your
+                      personal information, please contact us at 4mb@ud.me. This
+                      privacy notice describes how we might use your information
+                      if you:
                       <Link href="/">
-                        Visit our website at https://delsolventures.nft
+                        Visit our website at https://0xaloysius.x
                       </Link>
                       Engage with us in other related ways ― including any
                       sales, marketing, or events In this privacy notice, if we
@@ -262,8 +264,7 @@ export default function Privacy() {
                       deactivate the account and take reasonable measures to
                       promptly delete such data from our records. If you become
                       aware of any data we may have collected from children
-                      under age 18, please contact us at
-                      legal@delsolventures.nft.
+                      under age 18, please contact us at legal@0xaloysius.x.
                     </Text>
                   </Collapse>
                   <Collapse title="8. WHAT ARE YOUR PRIVACY RIGHTS?">
@@ -360,8 +361,8 @@ export default function Privacy() {
                       personal information? More information about our data
                       collection and sharing practices can be found in this
                       privacy notice. You may contact us by email at
-                      legal@delsolventures.nft, by visiting
-                      https://delsolventures.nft/contact, or by referring to the
+                      legal@0xaloysius.x, by visiting
+                      https://0xaloysius.x/contact, or by referring to the
                       contact details at the bottom of this document. If you are
                       using an authorized agent to exercise your right to
                       opt-out we may deny a request if the authorized agent does
@@ -375,10 +376,10 @@ export default function Privacy() {
                       information for our own business purposes, such as for
                       undertaking internal research for technological
                       development and demonstration. This is not considered to
-                      be "selling" of your personal data. del SOL has not
+                      be "selling" of your personal data. 0xaloysius has not
                       disclosed or sold any personal information to third
                       parties for a business or commercial purpose in the
-                      preceding 12 months. del SOL will not sell personal
+                      preceding 12 months. 0xaloysius will not sell personal
                       information in the future belonging to website visitors,
                       users and other consumers. Your rights with respect to
                       your personal data Right to request deletion of the data -
@@ -445,11 +446,11 @@ export default function Privacy() {
                       opt-out, we will act upon the request as soon as feasibly
                       possible, but no later than 15 days from the date of the
                       request submission. To exercise these rights, you can
-                      contact us by email at legal@delsolventures.nft, by
-                      visiting https://delsolventures.nft/contact, or by
-                      referring to the contact details at the bottom of this
-                      document. If you have a complaint about how we handle your
-                      data, we would like to hear from you.
+                      contact us by email at legal@0xaloysius.x, by visiting
+                      https://0xaloysius.x/contact, or by referring to the
+                      contact details at the bottom of this document. If you
+                      have a complaint about how we handle your data, we would
+                      like to hear from you.
                     </Text>
                   </Collapse>
                   <Collapse title="11. DO WE MAKE UPDATES TO THIS NOTICE?">
@@ -469,10 +470,10 @@ export default function Privacy() {
                   <Collapse title="12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?">
                     <Text>
                       If you have questions or comments about this notice, you
-                      may email us at legal@delsolventures.nft or by post to:
+                      may email us at legal@0xaloysius.x or by post to:
                     </Text>
                     <Text>
-                      del SOL VENTURES INC.
+                      0xaloysius Inc.
                       <br />
                       16192 Coastal Highway
                       <br />
@@ -500,6 +501,7 @@ export default function Privacy() {
           </div>
         </section>
       </main>
+      <Footer />
       <PopupWidget />
     </>
   );
