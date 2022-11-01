@@ -7,6 +7,20 @@ import PopupWidget from "../components/popupWidget";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
+import {
+  CCard,
+  CCardImage,
+  CCardBody,
+  CCardHeader,
+  CCardFooter,
+  CCardText,
+  CRow,
+  CCol,
+  CCardGroup,
+  CCardTitle,
+} from "@coreui/react";
+import "@coreui/coreui/dist/css/coreui.min.css";
+
 export default function Portfolio() {
   return (
     <>
@@ -17,24 +31,26 @@ export default function Portfolio() {
         "Our mission is to support Southern Californian start-ups and
         communities to create sustainable, renewable & secure platforms."
       </SectionTitle>
-      <div className="container  items-center p-8 mx-auto w-full place-content-center flex flex-wrap sm:flex-no-wrap items-center justify-between w-full h-auto">
-        <div className="w-full sm:w-1/3 p-4">
-          <Card1 />
-        </div>
-        <div className="w-full sm:w-1/3 p-4">
-          <Card2 />
-        </div>
-        <div className="w-full sm:w-1/3 p-4">
-          <Card3 />
-        </div>
-        <div className="w-full sm:w-1/3 p-4">
-          <Card4 />
-        </div>
-        <div className="w-full sm:w-1/3 p-4">
-          <Card5 />
-        </div>
-        <div className="w-full sm:w-1/3 p-4">
-          <Card6 />
+      <div className="container  items-center p-8 mx-auto w-full place-content-center">
+        <div className="flex flex-wrap sm:flex-no-wrap items-center justify-between w-full h-auto">
+          <div className="w-full sm:w-1/3 p-4">
+            <Card1 />
+          </div>
+          <div className="w-full sm:w-1/3 p-4">
+            <Card2 />
+          </div>
+          <div className="w-full sm:w-1/3 p-4">
+            <Card3 />
+          </div>
+          <div className="w-full sm:w-1/3 p-4">
+            <Card4 />
+          </div>
+          <div className="w-full sm:w-1/3 p-4">
+            <Card5 />
+          </div>
+          <div className="w-full sm:w-1/3 p-4">
+            <Card6 />
+          </div>
         </div>
       </div>
 
@@ -47,15 +63,11 @@ export default function Portfolio() {
 function Card1() {
   return (
     <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 min-h-400-px">
-      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 text-trueZinc-100">
+      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
         Lexington
       </h5>
       <div className="relative block p-4 max-w-sm max-h-72 mx-auto">
-        <Link
-          href="https://lexingtontech.us"
-          target="_blank"
-          alt="Lexington Tech"
-        >
+        <Link href="https://lexingtontech.us" target="_blank" alt="4 Mo Beers">
           <Image
             className="shadow-xl rounded-full mx-auto relative align-middle border-none  max-w-150-px"
             src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
@@ -66,18 +78,14 @@ function Card1() {
         </Link>
       </div>
       <div className="text-trueZinc-100 text-md py-4">
-        <p>
-          BTAB Group
-          <br />
-          Management Consulting.
-          <br />
-          Technology Innovation.
-        </p>
+        BTAB Group. <br />
+        Technology Consulting. <br />
+        Management Consulting.
       </div>
       <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
         President
-        <p className="font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
-          Lexington Tech LLC
+        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
+          Lexington Tech LLC.
         </p>
       </div>
     </div>
@@ -94,14 +102,15 @@ function Card2() {
         <Link
           href="https://delsolventures.nft"
           target="_blank"
-          alt="del SOL Ventures"
+          alt="4 Mo Beers"
         >
           <Image
-            className="shadow-xl rounded-half mx-auto relative align-middle max-w-150-px border-2 border-trueZinc-100 border-solid p-2"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi.svg"
-            height={240}
-            width={240}
-            object-fit="scale-down"
+            className="shadow-xl rounded-half mx-auto relative align-middle border-2 border-solid  max-w-150-px p-2"
+            //src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi.svg"
+            src="/img/untitled1.svg"
+            height={250}
+            width={250}
+            object-fit="cover"
           />
         </Link>
       </div>
@@ -111,8 +120,8 @@ function Card2() {
         Privacy Toolkits.
       </div>
       <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        Managing Partner
-        <p className="font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
+        Managing Partner.
+        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
           del SOL VENTURES INC.
         </p>
       </div>
