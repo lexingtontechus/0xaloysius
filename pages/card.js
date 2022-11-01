@@ -9,6 +9,7 @@ import {
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import SEO from "../components/seo";
+import PC1 from "../components/portfoliocard1";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
       <div className="container w-10/12 items-center p-8 mx-auto w-full place-content-center">
         <div className="flex flex-wrap sm:flex-no-wrap items-center justify-between w-full">
           <div className="w-full sm:w-1/2 p-4">
+            <PC1 />
+          </div>
+           <div className="w-full sm:w-1/2 p-4">
             <Card1 />
           </div>
           <div className="w-full sm:w-1/2 p-4">

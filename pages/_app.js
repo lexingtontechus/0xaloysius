@@ -17,15 +17,16 @@ function MyApp({ Component, pageProps }) {
       const cal = await getCalApi();
       cal("floatingButton", {
         calLink: "delsolventures/30min",
+        buttonText: "Book Me",
         buttonColor: "#0284c7",
         buttonTextColor: "#f3f4f6",
-        buttonPosition: "bottom-left"
+        buttonPosition: "bottom-left",
       });
       cal("ui", {
         theme: "dark",
         styles: {
-          branding: { brandColor: "#ea580c" }
-        }
+          branding: { brandColor: "#ea580c" },
+        },
       });
     })();
   }, []);
