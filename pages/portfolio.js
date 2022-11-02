@@ -7,6 +7,13 @@ import PopupWidget from "../components/popupWidget";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faLinkedinIn,
+  faDiscord,
+} from "@fortawesome/free-brands-svg-icons";
+
 export default function Portfolio() {
   return (
     <>
@@ -17,27 +24,36 @@ export default function Portfolio() {
         "Our mission is to support Southern Californian start-ups and
         communities to create sustainable, renewable & secure platforms."
       </SectionTitle>
+      <SectionTitle pretitle="Portfolio" title="The 0x Mission Statement">
+        "Our mission is to support Southern Californian start-ups and
+        communities to create sustainable, renewable & secure platforms."
+      </SectionTitle>
+
       <div className="container  items-center p-8 mx-auto w-full place-content-center">
-        <div className="flex flex-wrap sm:flex-no-wrap items-center justify-between w-full h-auto">
-          <div className="w-full sm:w-1/3 p-4">
-            <Card1 />
+        <section className="">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-wrap">
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+                <Card1 />
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+                <Card2 />
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+                <Card3 />
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+                <Card4 />
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+                <Card5 />
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+                <Card6 />
+              </div>
+            </div>
           </div>
-          <div className="w-full sm:w-1/3 p-4">
-            <Card2 />
-          </div>
-          <div className="w-full sm:w-1/3 p-4">
-            <Card3 />
-          </div>
-          <div className="w-full sm:w-1/3 p-4">
-            <Card4 />
-          </div>
-          <div className="w-full sm:w-1/3 p-4">
-            <Card5 />
-          </div>
-          <div className="w-full sm:w-1/3 p-4">
-            <Card6 />
-          </div>
-        </div>
+        </section>
       </div>
 
       <Footer />
@@ -48,32 +64,41 @@ export default function Portfolio() {
 
 function Card1() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 min-h-400-px">
-      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
-        Lexington
-      </h5>
-      <div className="relative block p-4 max-w-sm max-h-72 mx-auto">
-        <Link href="https://lexingtontech.us" target="_blank" alt="4 Mo Beers">
-          <Image
-            className="shadow-xl rounded-full mx-auto relative align-middle border-none  max-w-150-px"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
-            height={250}
-            width={250}
-            object-fit="scale-down"
-            alt="Lexington Tech LLC"
-          />
-        </Link>
-      </div>
-      <div className="text-trueZinc-100 text-md py-4">
-        BTAB Group. <br />
-        Technology Consulting. <br />
-        Management Consulting.
-      </div>
-      <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        President
-        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
-          Lexington Tech LLC.
+    <div className="px-6">
+      <Link
+        href="https://lexingtontech.us"
+        target="_blank"
+        alt="Lexington Tech"
+      >
+        <Image
+          alt="Lexington Tech LLC"
+          src="/img/logo-lxt.svg"
+          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          height={150}
+          width={150}
+        />
+      </Link>
+      <div className="pt-16 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
+          President
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
+          Lexington Tech LLC
         </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/lexingtontechus"
+            target="_blank"
+            alt="Lexington Tech | LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -81,32 +106,42 @@ function Card1() {
 
 function Card2() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 min-h-400-px">
-      <h5 className="text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
-        del SOL
-      </h5>
-      <div className="relative block p-4 max-w-sm max-h-72 mx-auto">
-        <Link href="https://delsolventures.nft" target="_blank" alt="del SOL">
-          <Image
-            className="shadow-xl rounded-half mx-auto relative align-middle border-none  max-w-150-px"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi.svg"
-            height={220}
-            width={220}
-            object-fit="scale-down"
-            alt="del SOL VENTURES INC."
-          />
-        </Link>
-      </div>
-      <div className="text-trueZinc-100 text-md py-4">
-        Digital Identity. <br />
-        Data Privacy. <br />
-        Privacy Toolkits.
-      </div>
-      <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        Managing Partner.
-        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
+    <div className="px-6 fill-trueZinc-700 dark:fill-trueZinc-100">
+      <Link
+        href="https://delsolventures.nft"
+        target="_blank"
+        alt="del SOL"
+        className="fill-trueZinc-700 dark:fill-trueZinc-100"
+      >
+        <Image
+          alt="del SOL"
+          src="/img/logo-dsvi-light.svg"
+          className="shadow-lg rounded-half mx-auto max-w-120-px fill-trueZinc-700 dark:fill-trueZinc-100 border-2 border-solid border-trueZinc-1100 p-2"
+          height={150}
+          width={150}
+        />
+      </Link>
+      <div className="pt-8 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
+          Managing Partner
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 font-semibold">
           del SOL VENTURES INC.
         </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/delsolventures"
+            target="_blank"
+            alt="del SOL | LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -114,31 +149,35 @@ function Card2() {
 
 function Card3() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 min-h-400-px">
-      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
-        4 Mo Beers
-      </h5>
-      <div className="relative block p-4 max-w-sm max-h-72 mx-auto">
-        <Link href="https://4mobeers.nft" target="_blank" alt="4 Mo Beers">
-          <Image
-            className="shadow-xl rounded-full mx-auto relative align-middle border-2 border-trueZinc-1100 border-solid p-2  max-w-150-px"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-4mobeers.svg"
-            height={250}
-            width={250}
-            object-fit="scale-down"
-          />
-        </Link>
-      </div>
-      <div className="text-trueZinc-100 text-md py-4">
-        Beerverse. <br />
-        NFT Collectibles. <br />
-        Web3 Gaming.
-      </div>
-      <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        Beer Shark
-        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
-          4 Mo Beers Inc.
+    <div className="px-6">
+      <Image
+        alt="4 Mo Beers"
+        src="/img/logo-4mobeers.svg"
+        className="shadow-lg rounded-full mx-auto max-w-120-px"
+        height={150}
+        width={150}
+      />
+      <div className="pt-16 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
+          Beer Shark
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
+          4MB Inc.
         </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/4mobeers"
+            target="_blank"
+            alt="4 Mo Beers | LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -146,31 +185,35 @@ function Card3() {
 
 function Card4() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 min-h-400-px">
-      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
-        Las Playas
-      </h5>
-      <div className="relative block p-4 max-w-sm max-h-72">
-        <Link href="https://lasplayas.nft" target="_blank" alt="Las PLayas">
-          <Image
-            className="shadow-xl rounded-full mx-auto relative align-middle border-2 border-trueZinc-1100 border-solid p-2  max-w-150-px"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-4mobeers.svg"
-            height={250}
-            width={250}
-            object-fit="scale-down"
-          />
-        </Link>
-      </div>
-      <div className="text-trueZinc-100 text-md py-4">
-        Bar & Grill. <br />
-        Fan Driven Sports. <br />
-        Renewalable Energy. <br />
-      </div>
-      <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        Managing Partner
-        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
+    <div className="px-6">
+      <Image
+        alt="Las PLayas"
+        src="/img/logo-lxt.svg"
+        className="shadow-lg rounded-full mx-auto max-w-120-px"
+        height={150}
+        width={150}
+      />
+      <div className="pt-16 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
+          Managing Partner
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Las Playas Inc.
         </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/lasplayasnft"
+            target="_blank"
+            alt="Las PLayas | LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -178,35 +221,35 @@ function Card4() {
 
 function Card5() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 max-h-400-px">
-      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
-        Sunset
-      </h5>
-      <div className="relative block p-4 max-w-sm max-h-72">
-        <Link
-          href="https://sunsetventures.nft"
-          target="_blank"
-          alt="Sunset Ventures"
-        >
-          <Image
-            className="shadow-xl rounded-full mx-auto relative align-middle border-2 border-trueZinc-1100 border-solid p-2  max-w-150-px"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
-            height={250}
-            width={250}
-            object-fit="cover"
-          />
-        </Link>
-      </div>
-      <div className="text-trueZinc-100 text-md py-4">
-        Transition 3. <br />
-        Veteran Integration. <br />
-        VA Benefits. <br />
-      </div>
-      <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        Managing Partner
-        <p className="font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
+    <div className="px-6">
+      <img
+        alt="Sunset Ventures"
+        src="/img/logo-sunset.svg"
+        className="shadow-lg rounded-full mx-auto max-w-120-px"
+        height={150}
+        width={150}
+      />
+      <div className="pt-16 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
+          Managing Partner
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Sunset Ventures Inc.
         </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/sunsetventures"
+            target="_blank"
+            alt="Sunset Ventures| LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -214,75 +257,36 @@ function Card5() {
 
 function Card6() {
   return (
-    <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500 min-h-400-px">
-      <h5 className="uppercase text-lg leading-tight font-medium mb-2 py-3 px-4 text-trueZinc-100">
-        SAVI
-      </h5>
-      <div className="relative block p-4 max-w-sm max-h-72">
-        <Link href="https://savivets.org" target="_blank" alt="SAVIVETS">
-          <Image
-            className="shadow-xl rounded-full mx-auto relative align-middle border-2 border-trueZinc-1100 border-solid p-2  max-w-150-px"
-            src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
-            height={250}
-            width={250}
-            object-fit="cover"
-          />
-        </Link>
-      </div>
-      <div className="text-trueZinc-100 text-md py-4">
-        Transition 3. <br />
-        Veteran Integration. <br />
-        VA Benefits. <br />
-      </div>
-      <div className="border-t border-trueZinc-200 py-3 w-full text-md text-trueZinc-700 dark:text-trueZinc-100">
-        Board Member
-        <p className="uppercase font-xs text-xs text-trueZinc-700 dark:text-trueZinc-100">
+    <div className="px-6">
+      <Image
+        alt="SAVI"
+        src="/img/logo-savi.svg"
+        className="shadow-lg rounded-half mx-auto max-w-120-px"
+        height={150}
+        width={150}
+      />
+      <div className="pt-16 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
+          Board Member
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Strategic Alliance Veteran Integration
         </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/savivets"
+            target="_blank"
+            alt="SAVI | LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
-  );
-}
-
-function LogoLXT() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 312.5 312.5"
-      preserveAspectRatio="xMidYMid meet"
-      class="css-ata32y"
-      id="hfghagba"
-      width="200"
-      height="200"
-    >
-      <g
-        id="SvgjsG4798"
-        featurekey="rootContainer"
-        transform="matrix(6.25,0,0,6.25,0.31249597668647766,0)"
-        fill="#FFFFFF"
-      >
-        <path
-          xmlns="http://www.w3.org/2000/svg"
-          d="M24.95 0a25 25 0 1 0 25 25 25 25 0 0 0-25-25zm0 46.91a22 22 0 1 1 22-22 22 22 0 0 1-22 21.99z"
-          fill="#FFFFFF"
-        />
-        <path
-          xmlns="http://www.w3.org/2000/svg"
-          d="M24.95 3.65a21.3 21.3 0 1 0 21.3 21.3 21.33 21.33 0 0 0-21.3-21.3z"
-          fill="#FFFFFF"
-        />
-      </g>
-      <g
-        id="SvgjsG4799"
-        featurekey="nameFeature-0"
-        transform="matrix(2.6150626467234352,0,0,2.6150626467234352,51.397489143226416,88.24686516991014)"
-        fill="#39424A"
-      >
-        <path
-          d="M21.6 40 l-19.84 0 l0 -28.24 l8.92 0 l0 21.12 l10.92 0 l0 7.12 z M55 40 l-10.52 0 l-6.16 -10.16 l-6.24 10.16 l-10.48 0 l10.92 -15.16 l-9.16 -13.08 l10.48 0 l4.48 7.76 l4.56 -7.76 l10.2 0 l-8.92 13.04 z M78.24 18.72 l-7.16 0 l0 21.28 l-8.92 0 l0 -21.28 l-7.2 0 l0 -6.96 l23.28 0 l0 6.96 z"
-          fill="#39424A"
-        />
-      </g>
-    </svg>
   );
 }

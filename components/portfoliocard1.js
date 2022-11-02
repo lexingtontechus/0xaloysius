@@ -20,7 +20,7 @@ export default function PortfolioCard1() {
       </Card.Header>
       <Card.Body css={{ p: 0 }}>
         <Card.Image
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+          src="/img/logo_lxt.svg"
           objectFit="contain"
           width="100%"
           height="100%"
@@ -42,7 +42,7 @@ export default function PortfolioCard1() {
             <Row>
               <Col span={3}>
                 <Card.Image
-                  src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+                  src="/img/logo_lxt.svg"
                   css={{ bg: "black", br: "50%" }}
                   height={40}
                   width={40}

@@ -30,7 +30,7 @@ export default function About() {
                       <Link href="/" alt="Home">
                         <Image
                           alt="0xaloysius"
-                          src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/logo-dsvi-light.svg"
+                          src="/img/logo-0xaloysius.svg"
                           height={150}
                           width={150}
                           layout="responsive"
