@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }) {
       cal("floatingButton", {
         calLink: "delsolventures/30min",
         buttonText: "Book Me",
-        buttonColor: "#0284c7",
-        buttonTextColor: "#f3f4f6",
+        buttonColor: "#7e22ce",
+        buttonTextColor: "#f4f4f5",
         buttonPosition: "bottom-left",
       });
       cal("ui", {
