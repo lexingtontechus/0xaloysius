@@ -31,7 +31,7 @@ export default function Privacy() {
                   </Text>
                   <Image
                     className="bg-center bg-cover bg-no-repeat"
-                    src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-4fd6e41d0d4782e287ad04e8174a1ebd.png"
+                    src="/img/doodleipsum-4fd6e41d0d4782e287ad04e8174a1ebd.png"
                     height="50"
                     width="50"
                     layout="responsive"

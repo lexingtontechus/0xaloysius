@@ -30,7 +30,7 @@ export default function Terms() {
                   </Text>
                   <Image
                     className="bg-center bg-cover bg-no-repeat"
-                    src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-ed98837bc0b91d677c167bd1957ca1a6.png"
+                    src="/img/doodleipsum-ed98837bc0b91d677c167bd1957ca1a6.png"
                     height="50"
                     width="50"
                     layout="responsive"

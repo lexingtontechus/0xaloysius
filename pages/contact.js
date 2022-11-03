@@ -63,7 +63,7 @@ export default function Contact() {
             className="absolute top-0 w-full h-full bg-top bg-contain bg-no-repeat"
             style={{
               backgroundImage:
-                "url('https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-5023748687d870ad70616886e76ea6d6.png')",
+                "url('/img/doodleipsum-5023748687d870ad70616886e76ea6d6.png')",
               //"url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
             }}
           >

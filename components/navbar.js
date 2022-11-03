@@ -68,8 +68,8 @@ export default function Navbar() {
                           <a
                             href="/profile"
                             className={classNames(
-                              active ? "bg-trueGray-100" : "",
-                              "block px-4 py-2 text-sm text-trueGray-700"
+                              active ? "bg-trueZinc-100" : "",
+                              "block px-4 py-2 text-sm text-trueZinc-700"
                             )}
                           >
                             Profile
@@ -81,8 +81,8 @@ export default function Navbar() {
                           <a
                             href="/portfolio"
                             className={classNames(
-                              active ? "bg-trueGray-100" : "",
-                              "block px-4 py-2 text-sm text-trueGray-700"
+                              active ? "bg-trueZinc-100" : "",
+                              "block px-4 py-2 text-sm text-trueZinc-700"
                             )}
                           >
                             Porfolio
@@ -94,8 +94,8 @@ export default function Navbar() {
                           <a
                             href="/contact"
                             className={classNames(
-                              active ? "bg-trueGray-100" : "",
-                              "block px-4 py-2 text-sm text-trueGray-700"
+                              active ? "bg-trueZinc-100" : "",
+                              "block px-4 py-2 text-sm text-trueZinc-700"
                             )}
                           >
                             Contact
@@ -120,8 +120,8 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-trueSky-600 text-trueGray-700 dark:text-trueGray-100 dark:bg-trueSky-600"
-                      : "text-trueGray-700 hover:bg-trueGray-400 dark:text-trueGray-100 dark:hover:bg-trueGray-400",
+                      ? "bg-trueSky-600 text-trueZinc-700 dark:text-trueZinc-100 dark:bg-trueSky-600"
+                      : "text-trueZinc-700 hover:bg-trueZinc-400 dark:text-trueZinc-100 dark:hover:bg-trueZinc-400",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

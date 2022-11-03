@@ -60,7 +60,7 @@ function Card1() {
     >
       <CCardImage
         orientation="top"
-        src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+        src="/img/logo_lxt.svg"
         width={200}
         height={200}
       />
@@ -82,7 +82,7 @@ function Card2() {
     >
       <CCardImage
         orientation="top"
-        src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi.svg"
+        src="/img/logo-dsvi.svg"
         width={200}
         height={200}
       />
@@ -104,7 +104,7 @@ function Card3() {
     >
       <CCardImage
         orientation="top"
-        src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+        src="/img/logo_lxt.svg"
         width={200}
         height={200}
       />
@@ -126,7 +126,7 @@ function Card4() {
     >
       <CCardImage
         orientation="top"
-        src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+        src="/img/logo_lxt.svg"
         width={200}
         height={200}
       />
@@ -148,7 +148,7 @@ function Card5() {
     >
       <CCardImage
         orientation="top"
-        src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+        src="/img/logo_lxt.svg"
         width={200}
         height={200}
       />
@@ -170,7 +170,7 @@ function Card6() {
     >
       <CCardImage
         orientation="top"
-        src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo_lxt.svg"
+        src="/img/logo_lxt.svg"
         width={200}
         height={200}
       />
