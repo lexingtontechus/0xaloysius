@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
+
 import ThemeChanger from "./darkSwitch";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -62,10 +63,10 @@ export default function Navbar() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-trueZinc-50 py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
-                          <a
+                          <Link
                             href="/profile"
                             className={classNames(
                               active ? "bg-trueZinc-100" : "",
@@ -73,12 +74,12 @@ export default function Navbar() {
                             )}
                           >
                             Profile
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
+                          <Link
                             href="/portfolio"
                             className={classNames(
                               active ? "bg-trueZinc-100" : "",
@@ -86,12 +87,12 @@ export default function Navbar() {
                             )}
                           >
                             Porfolio
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
-                          <a
+                          <Link
                             href="/contact"
                             className={classNames(
                               active ? "bg-trueZinc-100" : "",
@@ -99,7 +100,7 @@ export default function Navbar() {
                             )}
                           >
                             Contact
-                          </a>
+                          </Link>
                         )}
                       </Menu.Item>
                     </Menu.Items>
@@ -120,8 +121,8 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-trueSky-600 text-trueZinc-700 dark:text-trueZinc-100 dark:bg-trueSky-600"
-                      : "text-trueZinc-700 hover:bg-trueZinc-400 dark:text-trueZinc-100 dark:hover:bg-trueZinc-400",
+                      ? "bg-truePurple-600 text-trueZinc-700 dark:text-trueZinc-100 dark:bg-trueSky-600"
+                      : "text-trueZinc-700 hover:bg-truePurple-500 dark:text-trueZinc-100 dark:hover:bg-truePurple-500",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
@@ -156,15 +157,11 @@ function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="css-ze2te4 css-qd6ojx"
       viewBox="0 0 100.00000000000001 100.00124560768778"
-      width="40"
-      height="40"
+      width="30"
+      height="30"
     >
-      <g
-        transform="translate(-14.398415463411226, -12.314614829102151) scale(1.246292296582043)"
-        class="css-1fez0v2"
-      >
+      <g transform="translate(-14.398415463411226, -12.314614829102151) scale(1.246292296582043)">
         <g xmlns="http://www.w3.org/2000/svg">
           <path d="M64.417,23.802c0.129,0.055,0.263,0.081,0.396,0.081c0.387,0,0.756-0.227,0.919-0.604l0.988-2.296   c0.218-0.508-0.017-1.096-0.523-1.314c-0.509-0.215-1.096,0.018-1.314,0.523l-0.988,2.296   C63.676,22.995,63.91,23.583,64.417,23.802z" />
           <path d="M60.84,32.109c0.129,0.055,0.263,0.081,0.396,0.081c0.387,0,0.756-0.227,0.919-0.604l1.788-4.153   c0.218-0.508-0.017-1.096-0.523-1.314c-0.505-0.215-1.096,0.016-1.314,0.523l-1.788,4.153   C60.099,31.303,60.333,31.891,60.84,32.109z" />

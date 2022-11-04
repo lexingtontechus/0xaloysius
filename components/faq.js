@@ -12,15 +12,15 @@ export default function Faq() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-trueGray-700 rounded-lg bg-trueGray-50 hover:bg-trueGray-100 focus:outline-none focus-visible:ring focus-visible:ring-trueSky-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-trueGray-100">
+                  <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-trueZinc-700 rounded-lg bg-trueZinc-50 hover:bg-trueZinc-100 focus:outline-none focus-visible:ring focus-visible:ring-truePurple-100 focus-visible:ring-opacity-75 dark:bg-trueZinc-800 dark:text-trueZinc-100">
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
                         open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-trueSky-500`}
+                      } w-5 h-5 text-truePurple-700`}
                     />
                   </Disclosure.Button>
-                  <Disclosure.Panel className="px-4 pt-4 pb-2 text-trueGray-700 dark:text-trueGray-100">
+                  <Disclosure.Panel className="px-4 pt-4 pb-2 text-trueZinc-700 dark:text-trueZinc-100">
                     {item.answer}
                   </Disclosure.Panel>
                 </>
@@ -35,17 +35,17 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "How can my company work with del SOL?",
+    question: "How do I work with 0xaloysius?",
     answer:
-      "We work with start-ups who strive to take on new challenges and can accelerate & execute go-to-market and scaling strategies. "
+      "The 0x portfolio partners with & employs people with a wide range of skills & experince.",
   },
   {
-    question: "Is del SOL hiring?",
-    answer: "Yes we are! Book a meeting with us to discuss new possibilities."
+    question: "Is 0xaloysius hiring?",
+    answer:
+      "Our portfolio businesses are hiring! Book a meeting with me to discuss new possibilities.",
   },
   {
-    question: "Which industries are del SOL involved in? ",
-    answer:
-      "We work in the fields of energy, biotech, aquaculture & agriculture."
-  }
+    question: "Who is 0xaloysius?",
+    answer: "Book an introduction call with me!",
+  },
 ];

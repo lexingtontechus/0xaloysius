@@ -20,17 +20,13 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="title" content="del SOL" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://0xaloysius.x/" />
-          <meta property="og:title" content="del SOL VENTURES" />
-          <meta
-            property="og:description"
-            content="Early-stage VC in biotech, cleantech, foodtech & mobility."
-          />
+          <meta property="og:title" content="0xaloysius LLC." />
+          <meta property="og:description" content="0xaloysius. " />
           <meta
             property="og:image"
-            content="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/delsolendlesssummer.svg"
+            content="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/0xaloysius.svg"
           />
 
           <meta property="twitter:card" content="summary_large_image" />
@@ -38,14 +34,14 @@ class MyDocument extends Document {
             property="twitter:url"
             content="https://twitter.com/0xaloysius"
           />
-          <meta property="twitter:title" content="del SOL" />
+          <meta property="twitter:title" content="0xaloysius" />
           <meta
             property="twitter:description"
             content="Early-stage VC in biotech, cleantech, foodtech & mobility."
           />
           <meta
             property="twitter:image"
-            content="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/delsolendlesssummer.svg"
+            content="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/0xaloysius.svg"
           />
 
           <link
@@ -58,7 +54,7 @@ class MyDocument extends Document {
           />
           <link
             rel="icon"
-            href="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/logo-ds.png"
+            href="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logoyellow-0xaloysius.svg"
           />
         </Head>
         <body className="lightmode dark:darkmode">

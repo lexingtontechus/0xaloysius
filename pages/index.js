@@ -12,26 +12,20 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <>
-      <SEO
-        title="Home | del SOL"
-        description="Early-stage VC in biotech, cleantech, foodtech & mobility."
-      />
+      <SEO title="Home | 0xaloysius" description="Home 0xaloysius." />
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="Our Story"
-        title="Building & investing in rising startups."
-      >
-        We help develop early-stage companies with investment, strategic advice
-        and mentoring to achieve market leadership in sustainable technologies
-        and innovations.
+      <SectionTitle pretitle="Our Story" title="The 0xaloysius Portfolio">
+        The portfolio is comprised of five (5) companies & one (1) non-profit.
+        Each company is focused on a specific mission and innovations within its
+        industry.
       </SectionTitle>
-
+      <Cta />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        How can an organization or aspiring venturer partner with del SOL?
+        How can an organization partner with 0xaloysius?
       </SectionTitle>
       <Faq />
-      <Cta />
+
       <Footer />
       <PopupWidget />
     </>

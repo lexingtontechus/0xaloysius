@@ -9,23 +9,21 @@ export default function Hero() {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-trueGray-700 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-trueGray-100">
-              Investing in a Digital and Sustainable World
+              WEB3 & Sustainable Ecosystems
             </h1>
             <div className="pt-8 text-xl leading-normal text-trueGray-700 lg:text-xl xl:text-2xl dark:text-trueGray-100">
-              del SOL is an early-stage VC firm led by a team with technology
-              and investment experience looking to enable the future
-              technologists of the world.
+              Transitioning to a world of new protocols, digital ownership and
+              systems powering new technologies.
             </div>
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="hidden lg:block">
+          <div className="visible lg:block">
             <Image
-              src="/img/hero.png"
-              width="600"
-              height="600"
-              alt="Hero Illustration"
-              loading="eager"
+              src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/hero.png"
+              width="400"
+              height="400"
+              alt="0xhero"
             />
           </div>
         </div>
@@ -33,8 +31,7 @@ export default function Hero() {
       <Container>
         <div className="flex flex-col justify-center">
           <h2 className="text-xl text-center text-trueGray-700 dark:text-trueGray-100">
-            Building a diverse portfolio across multiple industries in Southern
-            California.
+            Building diverse companies in Southern California.
           </h2>
         </div>
       </Container>
