@@ -20,13 +20,13 @@ export default function Portfolio() {
       <SEO title="Portfolio | 0xaloysius" description="Portfolio 0xaloysius." />
 
       <Navbar />
-      <SectionTitle pretitle="Portfolio" title="The 0x Mission Statement">
-        "Our mission is to support Southern Californian start-ups and
-        communities to create sustainable, renewable & secure platforms."
+      <SectionTitle pretitle="Mission Statement" title="Mission Statement">
+        Support diversified investments in Southern Californian start-ups and
+        communities to create sustainable, renewable & secure platforms.
       </SectionTitle>
-      <SectionTitle pretitle="Portfolio" title="The 0x Mission Statement">
-        "Our mission is to support Southern Californian start-ups and
-        communities to create sustainable, renewable & secure platforms."
+      <SectionTitle pretitle="Cornerstone Ecosystem" title="Portfolio">
+        Collaborate and invest with the SoCal business & tech communities and
+        foster employment in our business ventures.
       </SectionTitle>
 
       <div className="container  items-center p-8 mx-auto w-full place-content-center">
@@ -72,7 +72,7 @@ function Card1() {
       >
         <Image
           alt="Lexington Tech LLC"
-          src="/img/logo-lxt.svg"
+          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
           className="shadow-lg rounded-full mx-auto max-w-120-px"
           height={150}
           width={150}
@@ -107,15 +107,10 @@ function Card1() {
 function Card2() {
   return (
     <div className="px-6 fill-trueZinc-700 dark:fill-trueZinc-100">
-      <Link
-        href="https://delsolventures.nft"
-        target="_blank"
-        alt="del SOL"
-        className="fill-trueZinc-700 dark:fill-trueZinc-100"
-      >
+      <Link href="https://delsolventures.nft" target="_blank" alt="del SOL">
         <Image
           alt="del SOL"
-          src="/img/logo-dsvi-light.svg"
+          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi-light.svg"
           className="shadow-lg rounded-half mx-auto max-w-120-px fill-trueZinc-700 dark:fill-trueZinc-100 border-2 border-solid border-trueZinc-1100 p-2"
           height={150}
           width={150}
@@ -150,13 +145,15 @@ function Card2() {
 function Card3() {
   return (
     <div className="px-6">
-      <Image
-        alt="4 Mo Beers"
-        src="/img/logo-4mobeers.svg"
-        className="shadow-lg rounded-full mx-auto max-w-120-px"
-        height={150}
-        width={150}
-      />
+      <Link href="https://4mobeers.nft" target="_blank" alt="4 Mo Beers">
+        <Image
+          alt="4 Mo Beers"
+          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-4mobeers.svg"
+          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          height={150}
+          width={150}
+        />
+      </Link>
       <div className="pt-16 text-center">
         <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
           Beer Shark
@@ -186,23 +183,26 @@ function Card3() {
 function Card4() {
   return (
     <div className="px-6">
-      <Image
-        alt="Las PLayas"
-        src="/img/logo-lxt.svg"
-        className="shadow-lg rounded-full mx-auto max-w-120-px"
-        height={150}
-        width={150}
-      />
+      <Link href="https://lasplayas.nft" target="_blank" alt="las Playas">
+        <Image
+          alt="las Playas"
+          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lasplayas.svg"
+          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          height={150}
+          width={150}
+          objectFit="fill"
+        />
+      </Link>
       <div className="pt-16 text-center">
         <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
-          Managing Partner
+          Investor
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Las Playas Inc.
         </p>
         <div className="mt-6">
           <Link
-            href="https://linkedin.com/company/lasplayasnft"
+            href="https://linkedin.com/company/lasplayas"
             target="_blank"
             alt="Las PLayas | LinkedIn"
           >
@@ -222,23 +222,29 @@ function Card4() {
 function Card5() {
   return (
     <div className="px-6">
-      <img
+      <Link
+        href="https://sunsetventures.nft"
+        target="_blank"
         alt="Sunset Ventures"
-        src="/img/logo-sunset.svg"
-        className="shadow-lg rounded-full mx-auto max-w-120-px"
-        height={150}
-        width={150}
-      />
+      >
+        <Image
+          alt="Sunset Ventures"
+          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
+          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          height={150}
+          width={150}
+        />
+      </Link>
       <div className="pt-16 text-center">
         <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
-          Managing Partner
+          Investor
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Sunset Ventures Inc.
         </p>
         <div className="mt-6">
           <Link
-            href="https://linkedin.com/company/sunsetventures"
+            href="https://linkedin.com/company/sunsetventuresinc"
             target="_blank"
             alt="Sunset Ventures| LinkedIn"
           >
@@ -258,13 +264,15 @@ function Card5() {
 function Card6() {
   return (
     <div className="px-6">
-      <Image
-        alt="SAVI"
-        src="/img/logo-savi.svg"
-        className="shadow-lg rounded-half mx-auto max-w-120-px"
-        height={150}
-        width={150}
-      />
+      <Link href="https://savivets.org" target="_blank" alt="SAVI">
+        <Image
+          alt="SAVI"
+          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
+          className="shadow-lg rounded-half mx-auto max-w-120-px"
+          height={150}
+          width={150}
+        />
+      </Link>
       <div className="pt-16 text-center">
         <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
           Board Member

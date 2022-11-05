@@ -53,40 +53,33 @@ export default function Contact() {
   return (
     <>
       <div>
-        <SEO
-          title="Contact | del SOL"
-          description="del SOL Contact. Early-stage VC in biotech, cleantech, foodtech & mobility."
-        />
+        <SEO title="Contact | 0xaloysius" description="Contact 0xaloysius." />
         <Navbar />
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
-          <div
-            className="absolute top-0 w-full h-full bg-top bg-contain bg-no-repeat"
-            style={{
-              backgroundImage:
-                "url('/img/doodleipsum-5023748687d870ad70616886e76ea6d6.png')",
-              //"url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
-            }}
-          >
-            <span
-              id="blackOverlay"
-              className="w-full h-full absolute opacity-75"
-            ></span>
+        <div className="relative py-8 flex content-center items-center justify-center min-h-screen-75">
+          <div className="container relative mx-auto">
+            <div className="items-center flex flex-wrap">
+              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <h1 className="uppercase text-trueZinc-700 dark:text-trueZinc-100 font-semibold text-5xl">
+                  Contact
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
         <div className="container w-10/12 p-8 mx-auto w-full place-content-center flex flex-wrap">
-          <div className=" flex flex-col  overflow-hidden left-0 h-full w-full lg:w-1/2  min-h-[250px] sm:h-[600px] border border-trueGray-300 dark:border-trueGray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
-            <div className="flex flex-col  justify-center h-32 p-5 bg-trueSky-600">
+          <div className=" flex flex-col  overflow-hidden left-0 h-full w-full lg:w-1/2  min-h-[250px] sm:h-[600px] border border-trueZinc-300 dark:border-trueZinc-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
+            <div className="flex flex-col  justify-center h-32 p-5 bg-truePurple-600">
               <h3 className="text-lg text-white">How can we help you?</h3>
               <p className="text-white opacity-50">
                 We usually respond in a few hours.
               </p>
             </div>
-            <div className="flex-grow h-full p-6 overflow-auto bg-trueGray-50 ">
+            <div className="flex-grow h-full p-6 overflow-auto bg-trueZinc-50 ">
               {!isSubmitSuccessful && (
                 <form onSubmit={handleSubmit(onSubmit)} noValidate>
                   <input
                     type="hidden"
-                    value="b8d91a11-1d17-4843-bee1-5556629af4d3"
+                    value="c4c17b77-17f0-4af1-9718-aecafb0ae7e8"
                     {...register("apikey")}
                   />
                   <input
@@ -96,7 +89,7 @@ export default function Contact() {
                   />
                   <input
                     type="hidden"
-                    value="del SOL VENTURES INC."
+                    value="0xaloysius"
                     {...register("from_name")}
                   />
                   <input
@@ -109,7 +102,7 @@ export default function Contact() {
                   <div className="mb-4">
                     <label
                       htmlFor="full_name"
-                      className="block mb-2 text-sm text-trueGray-600 dark:text-trueGray-400"
+                      className="block mb-2 text-sm text-trueZinc-600 dark:text-trueZinc-400"
                     >
                       Full Name
                     </label>
@@ -121,10 +114,10 @@ export default function Contact() {
                         required: "Full name is required",
                         maxLength: 80,
                       })}
-                      className={`w-full px-3 py-2 placeholder-trueGray-300 bg-white border border-trueGray-300 rounded-md focus:outline-none focus:ring   ${
+                      className={`w-full px-3 py-2 placeholder-trueZinc-300 bg-white border border-trueZinc-300 rounded-md focus:outline-none focus:ring   ${
                         errors.name
                           ? "border-red-600 focus:border-red-600 ring-red-100"
-                          : "border-trueGray-300 focus:border-trueSky-600 ring-trueSky-100"
+                          : "border-trueZinc-300 focus:border-truePurple-600 ring-truePurple-100"
                       }`}
                     />
                     {errors.name && (
@@ -137,7 +130,7 @@ export default function Contact() {
                   <div className="mb-4">
                     <label
                       htmlFor="email"
-                      className="block mb-2 text-sm text-trueGray-600 dark:text-trueGray-400"
+                      className="block mb-2 text-sm text-trueZinc-600 dark:text-trueZinc-400"
                     >
                       Email Address
                     </label>
@@ -152,10 +145,10 @@ export default function Contact() {
                         },
                       })}
                       placeholder="you@company.com"
-                      className={`w-full px-3 py-2 placeholder-trueGray-300 bg-white border border-trueGray-300 rounded-md focus:outline-none focus:ring   ${
+                      className={`w-full px-3 py-2 placeholder-trueZinc-300 bg-white border border-trueZinc-300 rounded-md focus:outline-none focus:ring   ${
                         errors.email
                           ? "border-red-600 focus:border-red-600 ring-red-100"
-                          : "border-trueGray-300 focus:border-trueSky-600 ring-trueSky-100"
+                          : "border-trueZinc-300 focus:border-truePurple-600 ring-truePurple-100"
                       }`}
                     />
 
@@ -169,7 +162,7 @@ export default function Contact() {
                   <div className="mb-4">
                     <label
                       htmlFor="message"
-                      className="block mb-2 text-sm text-trueGray-600 dark:text-trueGray-400"
+                      className="block mb-2 text-sm text-trueZinc-600 dark:text-trueZinc-400"
                     >
                       Your Message
                     </label>
@@ -181,10 +174,10 @@ export default function Contact() {
                         required: "Enter your Message",
                       })}
                       placeholder="Your Message"
-                      className={`w-full px-3 py-2 placeholder-trueGray-300 bg-white border border-trueGray-300 rounded-md h-28 focus:outline-none focus:ring   ${
+                      className={`w-full px-3 py-2 placeholder-trueZinc-300 bg-white border border-trueZinc-300 rounded-md h-28 focus:outline-none focus:ring   ${
                         errors.message
                           ? "border-red-600 focus:border-red-600 ring-red-100"
-                          : "border-trueGray-300 focus:border-trueSky-600 ring-trueSky-100"
+                          : "border-trueZinc-300 focus:border-truePurple-600 ring-truePurple-100"
                       }`}
                       required
                     ></textarea>
@@ -197,7 +190,7 @@ export default function Contact() {
                   <div className="mb-3">
                     <button
                       type="submit"
-                      className="w-full px-3 py-4 text-white bg-trueSky-500 rounded-md focus:bg-trueSky-600 focus:outline-none"
+                      className="w-full px-3 py-4 text-white bg-truePurple-500 rounded-md focus:bg-truePurple-600 focus:outline-none"
                     >
                       {isSubmitting ? (
                         <svg
@@ -226,14 +219,14 @@ export default function Contact() {
                     </button>
                   </div>
                   <p
-                    className="text-xs text-center text-trueGray-400"
+                    className="text-xs text-center text-trueZinc-400"
                     id="result"
                   >
                     <span>
                       Powered by{" "}
                       <a
                         href="https://Web3Forms.com"
-                        className="text-trueGray-600"
+                        className="text-trueZinc-600"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -264,9 +257,9 @@ export default function Contact() {
                     <h3 className="py-5 text-xl text-green-500">
                       Message sent successfully
                     </h3>
-                    <p className="text-trueGray-700 md:px-3">{Message}</p>
+                    <p className="text-trueZinc-700 md:px-3">{Message}</p>
                     <button
-                      className="mt-6 text-trueSky-600 focus:outline-none"
+                      className="mt-6 text-truePurple-600 focus:outline-none"
                       onClick={() => reset()}
                     >
                       Go back
@@ -295,9 +288,9 @@ export default function Contact() {
                   <h3 className="text-xl text-red-400 py-7">
                     Oops, Something went wrong!
                   </h3>
-                  <p className="text-trueGray-700 md:px-3">{Message}</p>
+                  <p className="text-trueZinc-700 md:px-3">{Message}</p>
                   <button
-                    className="mt-6 text-trueSky-600 focus:outline-none"
+                    className="mt-6 text-truePurple-600 focus:outline-none"
                     onClick={() => reset()}
                   >
                     Go back

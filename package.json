@@ -19,7 +19,7 @@
     "tailwindcss",
     "free"
   ],
-  "author": "0xaloysius Inc.",
+  "author": "0xaloysius LLC.",
   "license": "ISC",
   "dependencies": {
     "@calcom/embed-react": "^1.0.9",

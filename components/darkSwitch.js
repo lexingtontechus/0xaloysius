@@ -17,7 +17,7 @@ const ThemeChanger = () => {
       {theme === "dark" ? (
         <button
           onClick={() => setTheme("light")}
-          className="rounded-full outline-none focus:outline-none fill-red-500 dark:fill-yellow-300 "
+          className="rounded-full outline-none focus:outline-none fill-truePurple-900 dark:fill-yellow-300 "
         >
           <span className="sr-only">Light Mode</span>
           <Surf />
@@ -25,7 +25,7 @@ const ThemeChanger = () => {
       ) : (
         <button
           onClick={() => setTheme("dark")}
-          className="fill-red-500 dark:fill-yellow-300 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-orange-100 focus:ring-opacity-20"
+          className="fill-truePurple-900 dark:fill-yellow-300 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-orange-100 focus:ring-opacity-20"
         >
           <span className="sr-only">Dark Mode</span>
           <Beach />
@@ -40,8 +40,8 @@ function Surf() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 75.98832096404249"
-      width="30"
-      height="30"
+      width="20"
+      height="20"
     >
       <g transform="translate(-19.960103779492492, -31.96757392591492) scale(1.399212643983691)">
         <g xmlns="http://www.w3.org/2000/svg">
@@ -56,8 +56,8 @@ function Beach() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 99.71349821261099"
-      width="30"
-      height="30"
+      width="20"
+      height="20"
     >
       <g transform="translate(-12.471372658429047, -12.589376587183173) scale(1.2472138655103955)">
         <path

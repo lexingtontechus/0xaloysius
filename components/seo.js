@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 export default function SEO({
-  title = "del SOL",
-  description = "Early-stage VC in biotech, cleantech, foodtech & mobility."
+  title = "0xaloysius",
+  description = "Entrepreneur in technology, biotech, cleantech, foodtech & mobility.",
 }) {
   return (
     <>

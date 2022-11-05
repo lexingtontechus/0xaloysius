@@ -34,28 +34,41 @@ export async function getStaticProps() {
 
 export default ({ portfolios }) =>
   portfolios.map(({ name, description, position, url, logopath }) => (
-    <div className="w-full sm:w-1/3 p-4">
-      <div className="block p-4 rounded-lg shadow-lg  max-w-sm border-2 border-trueZinc-200 border-solid bg-truePurple-500">
-        <h5 className="uppercase text-xl leading-tight font-medium mb-2 py-3">
-          {name}
-        </h5>
-        <div>
-          <Image
-            className="p-6 bg-cover bg-no-repeat bg-truePurple-500 opacity-50"
-            src={logopath}
-            height="300"
-            width="300"
-            layout="responsive"
-          />
-          <p className="text-trueZinc-100 text-md mb-4">{description}</p>
-        </div>
-        <div className="border-t border-trueZinc-200 py-3 w-full text-sm text-trueZinc-700 dark:text-trueZinc-100">
+    <div className="px-6" key={name}>
+      <Link
+        href="https://sunsetventures.nft"
+        target="_blank"
+        alt="Sunset Ventures"
+      >
+        <Image
+          alt="Sunset Ventures"
+          src={logopath}
+          //https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg
+          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          height={150}
+          width={150}
+        />
+      </Link>
+      <div className="pt-16 text-center">
+        <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
           {position}
-          <div className="float-right">
-            <Link href={url} alt="SAVI" target="_blank">
-              <Image src={logopath} width={25} height={25} />
-            </Link>
-          </div>
+        </h5>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
+          {name}
+        </p>
+        <div className="mt-6">
+          <Link
+            href="https://linkedin.com/company/sunsetventuresinc"
+            target="_blank"
+            alt="Sunset Ventures| LinkedIn"
+          >
+            <button
+              className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+              type="button"
+            >
+              LinkedIn
+            </button>
+          </Link>
         </div>
       </div>
     </div>
