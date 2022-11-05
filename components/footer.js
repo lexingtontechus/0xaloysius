@@ -43,11 +43,11 @@ const Backlink = () => {
         type="button"
       >
         <Image
-          alt="del SOL VENTURES INC."
+          alt="0xaloysius"
           className="w-5 mr-1"
-          src="/img/logo-dsvi.svg"
+          src="/img/logo.svg"
         />
-        del SOL VENTURES INC.
+        0xaloysius
       </button>
     </>
   );

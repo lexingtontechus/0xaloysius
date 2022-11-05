@@ -237,7 +237,7 @@ function Card5() {
       </Link>
       <div className="pt-16 text-center">
         <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
-          Board Member
+          Investor
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Sunset Ventures Inc.

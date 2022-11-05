@@ -38,7 +38,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <Link
                     href="/"
-                    className="inline-flex h-content w-auto fill-red-500 dark:fill-yellow-300"
+                    className="inline-flex h-content w-auto fill-truePurple-900 dark:fill-yellow-300 stroke-2"
                   >
                     <Brand />
                   </Link>
@@ -48,7 +48,7 @@ export default function Navbar() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative mx-3">
                   <div>
-                    <Menu.Button className="fill-red-500 dark:fill-yellow-300 flex rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-trueZinc-00 focus:ring-offset-2 focus:ring-offset-trueZinc-800">
+                    <Menu.Button className="fill-truePurple-900 dark:fill-yellow-300 flex rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-trueZinc-00 focus:ring-offset-2 focus:ring-offset-trueZinc-800">
                       <span className="sr-only">Open user menu</span>
 
                       <Logo />

@@ -53,10 +53,7 @@ export default function Contact() {
   return (
     <>
       <div>
-        <SEO
-          title="Contact | 0xaloysius"
-          description="0xaloysius Contact. Early-stage VC in biotech, cleantech, foodtech & mobility."
-        />
+        <SEO title="Contact | 0xaloysius" description="Contact 0xaloysius." />
         <Navbar />
         <div className="relative py-8 flex content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
@@ -82,7 +79,7 @@ export default function Contact() {
                 <form onSubmit={handleSubmit(onSubmit)} noValidate>
                   <input
                     type="hidden"
-                    value="b8d91a11-1d17-4843-bee1-5556629af4d3"
+                    value="c4c17b77-17f0-4af1-9718-aecafb0ae7e8"
                     {...register("apikey")}
                   />
                   <input
@@ -92,7 +89,7 @@ export default function Contact() {
                   />
                   <input
                     type="hidden"
-                    value="0xaloysius VENTURES INC."
+                    value="0xaloysius"
                     {...register("from_name")}
                   />
                   <input

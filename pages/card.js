@@ -17,7 +17,7 @@ import {
   CCardText,
 } from "@coreui/react";
 
-export default function Home() {
+export default function Card() {
   return (
     <>
       <SEO

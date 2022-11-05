@@ -9,13 +9,10 @@ import PopupWidget from "../components/popupWidget";
 export default function Privacy() {
   return (
     <>
-      <SEO
-        title="Privacy | 0xaloysius"
-        description="Privacy 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
-      />
+      <SEO title="Privacy | 0xaloysius" description="Privacy 0xaloysius." />
       <Navbar />
-      <main>
-        <div className="relative py-8 content-center items-center justify-center min-h-screen-75">
+      <main className="mx-auto px-8">
+        <div className="relative py-8 content-center items-center justify-center min-h-screen-32">
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
@@ -36,10 +33,13 @@ export default function Privacy() {
         <section className="relative mx-auto">
           <div className="items-center flex flex-wrap">
             <div className="w-full ml-auto mr-auto px-4">
-              <Text h2 className="uppercase text-2xl text-trueZinc-700">
+              <Text
+                h2
+                className="uppercase text-2xl text-trueZinc-700 dark:text-trueZinc-100"
+              >
                 Privacy Notice
               </Text>
-              <Text className="mt-4 text-lg text-trueZinc-100">
+              <Text className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100">
                 Last Updated 1 Jan {new Date().getFullYear()}
               </Text>
               <Collapse.Group splitted className="text-trueZinc-700">
@@ -462,16 +462,14 @@ export default function Privacy() {
                   </Text>
                 </Collapse>
                 <Collapse title="13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? ">
-                  <Text span>
+                  <Text>
                     Based on the applicable laws of your country, you may have
                     the right to request access to the personal information we
                     collect from you, change that information, or delete it in
                     some circumstances. To request to review, update, or delete
                     your personal information, please submit a request by
                     clicking here for our:{" "}
-                    <Link span href="/contact">
-                      Contact Form.
-                    </Link>
+                    <Link href="/contact">Contact Form.</Link>
                   </Text>
                 </Collapse>
               </Collapse.Group>

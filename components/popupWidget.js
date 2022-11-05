@@ -123,7 +123,7 @@ export default function PopupWidget() {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="b8d91a11-1d17-4843-bee1-5556629af4d3"
+                        value="c4c17b77-17f0-4af1-9718-aecafb0ae7e8"
                         {...register("apikey")}
                       />
                       <input
@@ -133,7 +133,7 @@ export default function PopupWidget() {
                       />
                       <input
                         type="hidden"
-                        value="del SOL VENTURES INC."
+                        value="0xaloysius"
                         {...register("from_name")}
                       />
                       <input

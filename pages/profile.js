@@ -9,7 +9,9 @@ import {
   faBuildingWheat,
   faCompass,
   faGamepad,
+  faU,
 } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faDiscord } from "@fortawesome/free-brands-svg-icons";
 //import Image from "next/image";
 import SectionTitle from "../components/sectionTitle";
 import SEO from "../components/seo";
@@ -26,7 +28,7 @@ export default function About() {
       <main className="about-page h-full">
         <section className="relative py-16 ">
           <div className="container mx-auto px-4">
-            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-xl rounded-lg mt-32 bg-gradient-to-l from-truePurple-400 to-truePurple-600">
+            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-xl rounded-lg mt-32 bg-gradient-to-l from-trueZinc-400 to-trueZinc-600">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
@@ -47,7 +49,7 @@ export default function About() {
                     <div className="py-6 px-3 mt-16 sm:mt-0">
                       <Link href="/contact">
                         <button
-                          className="border-2 border-solid border-trueZinc-100  bg-trueZinc-600 active:bg-trueZinc-600 uppercase text-trueZinc-100 dark:text-trueZinc-100 font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                          className="border-2 border-solid border-trueZinc-100  bg-truePurple-600 active:bg-trueZinc-600 uppercase text-trueZinc-100 dark:text-trueZinc-100 font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
                           type="button"
                         >
                           Contact
@@ -58,34 +60,49 @@ export default function About() {
                   <div className="w-full lg:w-4/12 px-4 lg:order-1">
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
-                        <span className="hover:border-trueOrange-600 text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">
+                        <button
+                          className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
                           <Link
                             href="https://www.linkedin.com/in/0xaloysius/"
                             target="_blank"
                             rel="noreferrer"
+                            alt="LinkedIn"
                           >
-                            <LinkedInLogo />
+                            <FontAwesomeIcon
+                              icon={faLinkedin}
+                              className="text-trueZinc-100"
+                            />
                           </Link>
-                        </span>
+                        </button>
                       </div>
 
                       <div className="lg:mr-4 p-3 text-center">
-                        <span className=" text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">
+                        {/*<span className=" text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">*/}
+                        <button
+                          className="p-2 bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
                           <Link
                             href="https://ud.me/0xaloysius.x"
                             target="_blank"
                             rel="noreferrer"
+                            alt="Unstoppable Domains"
                           >
-                            <UDLogo />
+                            <FontAwesomeIcon
+                              icon={faU}
+                              className="text-trueZinc-100"
+                            />
                           </Link>
-                        </span>
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="text-center mt-8">
                   <h3 className="text-3xl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
-                    0xaloysius LLC.
+                    0xaloysius
                   </h3>
                   <div className="text-sm leading-normal mt-0 my-4 text-trueZinc-700 dark:text-trueZinc-100 font-bold uppercase">
                     <FontAwesomeIcon
@@ -119,7 +136,7 @@ export default function About() {
                         sustainable & diverse companies & platforms.
                       </h3>
                       <h3 className="text-xl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
-                        The focus being on,
+                        Portfolio & industry focus on,
                       </h3>
                       <div className="my-8 text-lg leading-relaxed text-trueZinc-700 dark:text-trueZinc-100">
                         <p className="my-4">
@@ -173,8 +190,8 @@ function UDLogo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
+      width="18"
+      height="18"
       viewBox="0 0 256.000000 256.000000"
       preserveAspectRatio="xMidYMid meet"
     >
