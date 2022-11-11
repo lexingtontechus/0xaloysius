@@ -2,7 +2,7 @@ import { Collapse } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../components/navbar";
-//import Footer from "../components/footer";
+import Footer from "../components/footer";
 import SEO from "../components/seo";
 import PopupWidget from "../components/popupWidget";
 import Privacy_CCPA from "../components/privacy_ccpa.js";
@@ -15,44 +15,39 @@ export default function Privacy() {
         description="Privacy 0xaloysius. Early-stage VC in biotech, cleantech, foodtech & mobility."
       />
       <Navbar transparent />
-      <main className="text-trueGray-700 mx-auto px-8">
+      <main className="text-trueZinc-700 dark:text-trueZinc-100 mx-auto px-8">
         <div className="relative py-8 flex content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="h1 uppercase text-trueGray-700 dark:text-trueGray-100 font-semibold text-5xl">
+                <div className="h1 uppercase text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100 font-semibold text-5xl">
                   Privacy Notice
                 </div>
-                <div className="mt-4 text-lg text-trueGray-700 dark:text-trueGray-100">
+                <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
                   Last Updated 1 Jan {new Date().getFullYear()}
                 </div>
-                <Image
-                  className="relative block mx-auto px-8"
-                  src="https://storageapi.fleek.co/20626237-8360-4375-83b2-2294cdded30d-bucket/img/doodleipsum-ed98837bc0b91d677c167bd1957ca1a6.png"
-                  height={500}
-                  width={500}
-                  alt="Privacy"
-                  priority={true}
-                />
               </div>
             </div>
           </div>
         </div>
 
-        <section className="relative py-4 text-trueGray-700">
+        <section className="relative py-4 text-trueZinc-700 dark:text-trueZinc-100">
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full  ml-auto mr-auto px-4">
-                <div className="h2 uppercase text-2xl text-trueGray-700 dark:text-trueGray-100">
+                <div className="h2 uppercase text-2xl text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
                   Privacy Notice
                 </div>
-                <div className="mt-4 text-lg text-trueGray-700 dark:text-trueGray-100">
+                <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
                   Last Updated 1 Jan {new Date().getFullYear()}
                 </div>
               </div>
-              <Collapse.Group splitted className="text-trueGray-700">
+              <Collapse.Group
+                splitted
+                className="text-trueZinc-700 dark:text-trueZinc-100"
+              >
                 <Collapse title="GENERAL NOTICE" expanded>
-                  <p className="text-sm text-trueGray-700">
+                  <p className="text-sm text-trueZinc-700">
                     Thank you for choosing to be part of our community at
                     0xaloysius LLC, doing business as 0xaloysius
                     (&quot;0xaloysius LLC.,&quot; &quot;we,&quot;
@@ -72,7 +67,7 @@ export default function Privacy() {
                   </Link>
                 </Collapse>
                 <Collapse title="2. HOW DO WE USE YOUR INFORMATION?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: We process your information for purposes based on
                     legitimate business interests, the fulfillment of our
                     contract with you, compliance with our legal obligations,
@@ -87,28 +82,28 @@ export default function Privacy() {
                     information we collect or receive:
                   </p>
                   <ol className="list-decimal list-inside pl-4 text-sm">
-                    <li>
+                    <li className="text-sm text-trueZinc-700">
                       Fulfill and manage your orders. We may use your
                       information to fulfill and manage your orders, payments,
                       returns, and exchanges made through the Website.
                     </li>
-                    <li>
+                    <li className="text-sm text-trueZinc-700">
                       Administer prize draws and competitions. We may use your
                       information to administer prize draws and competitions
                       when you elect to participate in our competitions.
                     </li>
-                    <li>
+                    <li className="text-sm text-trueZinc-700">
                       To deliver and facilitate delivery of services to the
                       user. We may use your information to provide you with the
                       requested service.
                     </li>
-                    <li>
+                    <li className="text-sm text-trueZinc-700">
                       To respond to user inquiries/offer support to users. We
                       may use your information to respond to your inquiries and
                       solve any potential issues you might have with the use of
                       our Services.
                     </li>
-                    <li>
+                    <li className="text-sm text-trueZinc-700">
                       To send you marketing and promotional communications. We
                       and/or our third-party marketing partners may use the
                       personal information you send to us for our marketing
@@ -120,7 +115,7 @@ export default function Privacy() {
                       marketing emails at any time (see the &quot;8. WHAT ARE
                       YOUR PRIVACY RIGHTS?&quot; below).
                     </li>
-                    <li>
+                    <li className="text-sm text-trueZinc-700">
                       Deliver targeted advertising to you. We may use your
                       information to develop and display personalized content
                       and advertising (and work with third parties who do so)
@@ -130,7 +125,7 @@ export default function Privacy() {
                   </ol>
                 </Collapse>
                 <Collapse title="3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: We only share information with your consent, to
                     comply with laws, to provide you with services, to protect
                     your rights, or to fulfill business obligations. We may
@@ -164,7 +159,7 @@ export default function Privacy() {
                   </p>
                 </Collapse>
                 <Collapse title="4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: We may use cookies and other tracking technologies
                     to collect and store your information. We may use cookies
                     and similar tracking technologies (like web beacons and
@@ -175,7 +170,7 @@ export default function Privacy() {
                 </Collapse>
 
                 <Collapse title="5. HOW LONG DO WE KEEP YOUR INFORMATION?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: We keep your information for as long as necessary
                     to fulfill the purposes outlined in this privacy notice
                     unless otherwise required by law. We will only keep your
@@ -196,7 +191,7 @@ export default function Privacy() {
                 </Collapse>
 
                 <Collapse title="6. HOW DO WE KEEP YOUR INFORMATION SAFE?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: We aim to protect your personal information
                     through a system of organizational and technical security
                     measures. We have implemented appropriate technical and
@@ -217,7 +212,7 @@ export default function Privacy() {
                 </Collapse>
 
                 <Collapse title="7. DO WE COLLECT INFORMATION FROM MINORS?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: We do not knowingly collect data from or market to
                     children under 18 years of age. We do not knowingly solicit
                     data from or market to children under 18 years of age. By
@@ -234,7 +229,7 @@ export default function Privacy() {
                 </Collapse>
 
                 <Collapse title="8. WHAT ARE YOUR PRIVACY RIGHTS?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: You may review, change, or terminate your account
                     at any time. If you are a resident in the EEA or UK and you
                     believe we are unlawfully processing your personal
@@ -248,7 +243,7 @@ export default function Privacy() {
                   >
                     https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm
                   </Link>
-                  <p>
+                  <p className="text-sm text-trueZinc-700">
                     If you are a resident in Switzerland, the contact details
                     for the data protection authorities are available here:
                   </p>
@@ -258,7 +253,7 @@ export default function Privacy() {
                   >
                     https://www.edoeb.admin.ch/edoeb/en/home.html
                   </Link>
-                  <p>
+                  <p className="text-sm text-trueZinc-700">
                     Cookies and similar technologies: Most Web browsers are set
                     to accept cookies by default. If you prefer, you can usually
                     choose to set your browser to remove cookies and to reject
@@ -275,7 +270,7 @@ export default function Privacy() {
                   </Link>
                 </Collapse>
                 <Collapse title="10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: Yes, if you are a resident of California, you are
                     granted specific rights regarding access to your personal
                     information. California Civil Code Section 1798.83, also
@@ -302,7 +297,7 @@ export default function Privacy() {
                     etc.).
                   </p>
                   <h3 className="text-sm font-bold">CCPA Privacy Notice</h3>
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     The California Code of Regulations defines a
                     &quot;resident&quot; as: (1) every individual who is in the
                     State of California for other than a temporary or transitory
@@ -317,7 +312,7 @@ export default function Privacy() {
                     personal information in the past twelve (12) months:
                   </p>
                   <Privacy_CCPA />
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     We may also collect other personal information outside of
                     these categories instances where you interact with us
                     in-person, online, or by phone or mail in the context of:
@@ -335,7 +330,7 @@ export default function Privacy() {
                   >
                     https://0xaloysius.x/contact
                   </Link>
-                  <p>
+                  <p className="text-sm text-trueZinc-700">
                     , or by referring to the contact details at the bottom of
                     this document. If you are using an authorized agent to
                     exercise your right to opt-out we may deny a request if the
@@ -425,14 +420,14 @@ export default function Privacy() {
                   >
                     https://0xaloysius.x/contact
                   </Link>
-                  <p>
+                  <p className="text-sm text-trueZinc-700">
                     , or by referring to the contact details at the bottom of
                     this document. If you have a complaint about how we handle
                     your data, we would like to hear from you.
                   </p>
                 </Collapse>
                 <Collapse title="11. DO WE MAKE UPDATES TO THIS NOTICE?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     In Short: Yes, we will update this notice as necessary to
                     stay compliant with relevant laws. We may update this
                     privacy notice from time to time. The updated version will
@@ -447,11 +442,11 @@ export default function Privacy() {
                   </p>
                 </Collapse>
                 <Collapse title="12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     If you have questions or comments about this notice, you may
                     email us at legal@0xaloysius.x or by post to:
                   </p>
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     0xaloysius LLC.
                     <br />
                     16192 Coastal Highway
@@ -462,13 +457,13 @@ export default function Privacy() {
                   </p>
                 </Collapse>
                 <Collapse title="13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? ">
-                  <p className="text-sm">
+                  <p className="text-sm text-trueZinc-700">
                     Based on the applicable laws of your country, you may have
                     the right to request access to the personal information we
                     collect from you, change that information, or delete it in
                     some circumstances. To request to review, update, or delete
                     your personal information, please submit a request by
-                    clicking here for our:
+                    clicking here for our:{" "}
                     <Link className="text-sm font-bold" href="/contact">
                       Contact Form.
                     </Link>
@@ -479,6 +474,7 @@ export default function Privacy() {
           </div>
         </section>
       </main>
+      <Footer />
       <PopupWidget />
     </>
   );

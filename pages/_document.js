@@ -48,10 +48,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap"
             rel="stylesheet"
           />
-          <Script
-            src="https://kit.fontawesome.com/5834df7891.js"
-            crossOrigin="anonymous"
-          />
+
           <link
             rel="icon"
             href="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logoyellow-0xaloysius.svg"
