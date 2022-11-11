@@ -76,6 +76,7 @@ function Card1() {
           className="shadow-lg rounded-full mx-auto max-w-120-px"
           height={150}
           width={150}
+          priority="true"
         />
       </Link>
       <div className="pt-16 text-center">
@@ -190,7 +191,6 @@ function Card4() {
           className="shadow-lg rounded-full mx-auto max-w-120-px"
           height={150}
           width={150}
-          objectFit="fill"
         />
       </Link>
       <div className="pt-16 text-center">
