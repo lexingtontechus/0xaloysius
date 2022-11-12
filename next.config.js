@@ -1,15 +1,6 @@
-module.exports = {
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
-  //  target: "serverless",
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback.fs = false;
-    }
-    return config;
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
   images: {
     //domains: ["storageapi.fleek.co", "savivets.wpengine.com"],
     remotePatterns: [
@@ -22,3 +13,6 @@ module.exports = {
     domains: ["storageapi.fleek.co"],
   },
 };
+
+module.exports = nextConfig;
+
