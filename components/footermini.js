@@ -17,9 +17,9 @@ export default function FooterMini() {
 
   return (
     <footer className="relative px-8 py-4">
-      <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-2 mx-auto mt-5 border-t border-trueGray-100 dark:border-trueGray-700">
+      <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-2 mx-auto mt-5 border-t border-trueZinc-100 dark:border-trueZinc-700">
         <div className="w-full text-center">
-          <p className="text-sm text-trueGray-700 dark:text-trueGray-100">
+          <p className="text-sm text-trueZinc-700 dark:text-trueZinc-100">
             Copyright © {new Date().getFullYear()}.{" "}
             <span className="px-2">
               <Link href="/terms">
@@ -42,9 +42,9 @@ const Backlink = () => {
   return (
     <>
       <button
-        className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-trueGray-900 
-        bg-trueOrange-600 border border-trueGray-300 rounded shadow-sm place-items-center left-5 bottom-5 
-        dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
+        className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-trueZinc-900 
+        bg-trueOrange-600 border border-trueZinc-300 rounded shadow-sm place-items-center left-5 bottom-5 
+        dark:bg-trueZinc-900 dark:border-trueZinc-700 dark:text-trueZinc-300"
         type="button"
       >
         <Image

@@ -19,10 +19,10 @@ export default function Terms() {
             <div className="container relative mx-auto">
               <div className="items-center flex flex-wrap">
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                  <div className="h1 uppercase text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100 font-semibold text-5xl">
+                  <div className="h1 uppercase text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueZinc-100 font-semibold text-5xl">
                     Terms & Conditions
                   </div>
-                  <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
+                  <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueZinc-100">
                     Last Updated 1 Jan {new Date().getFullYear()}
                   </div>
                 </div>
@@ -34,12 +34,7 @@ export default function Terms() {
             <div className="container mx-auto px-4">
               <div className="items-center flex flex-wrap">
                 <div className="w-full  ml-auto mr-auto px-4">
-                  <div className="h2 uppercase text-2xl text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
-                    Terms & Conditions Notice
-                  </div>
-                  <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
-                    Last Updated 1 Jan {new Date().getFullYear()}
-                  </div>
+                  
                   <div className="text-sm text-trueZinc-700">
                     These Terms of Use constitute a legally binding agreement
                     made between you, whether personally or on behalf of an
@@ -103,7 +98,7 @@ export default function Terms() {
                     expanded
                     color="#f3f4f6"
 
-                    //                  className="text-trueZinc-700 dark:text-trueZinc-100 bg-trueGray-700"
+                    //                  className="text-trueZinc-700 dark:text-trueZinc-100 bg-trueZinc-700"
                   >
                     <div className="text-sm text-trueZinc-700">
                       Unless otherwise indicated, the Site and the Marketplace

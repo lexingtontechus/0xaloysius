@@ -32,11 +32,11 @@ export default function Benefits(props) {
         >
           <div>
             <div className="flex flex-col w-full mt-4">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-trueGray-800 lg:leading-tight lg:text-4xl dark:text-white">
+              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-trueZinc-800 lg:leading-tight lg:text-4xl dark:text-white">
                 {data.title}
               </h3>
 
-              <p className="max-w-2xl py-4 text-lg leading-normal text-trueGray-500 lg:text-xl xl:text-xl dark:text-trueGray-300">
+              <p className="max-w-2xl py-4 text-lg leading-normal text-trueZinc-500 lg:text-xl xl:text-xl dark:text-trueZinc-300">
                 {data.desc}
               </p>
             </div>
@@ -65,10 +65,10 @@ function Benefit(props) {
           })}
         </div>
         <div>
-          <h4 className="text-xl font-medium text-trueGray-800 dark:text-trueGray-200">
+          <h4 className="text-xl font-medium text-trueZinc-800 dark:text-trueZinc-200">
             {props.title}
           </h4>
-          <p className="mt-1 text-trueGray-500 dark:text-trueGray-400">
+          <p className="mt-1 text-trueZinc-500 dark:text-trueZinc-400">
             {props.children}
           </p>
         </div>
