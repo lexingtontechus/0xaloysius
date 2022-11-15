@@ -21,9 +21,11 @@ export default function Hero() {
           <div className="visible lg:block">
             <Image
               src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/hero.png"
-              width="400"
-              height="400"
+              width={200}
+              height={200}
               alt="0xhero"
+              priority="true"
+              className="inline-flex h-content w-auto rounded-half h-auto align-middle border-2 max-w-150-px"
             />
           </div>
         </div>

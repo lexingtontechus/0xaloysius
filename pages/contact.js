@@ -226,7 +226,7 @@ export default function Contact() {
                       Powered by{" "}
                       <a
                         href="https://Web3Forms.com"
-                        className="text-trueZinc-600"
+                        className="text-trueZinc-600 font-bold"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -39,7 +39,8 @@ export default function About() {
                     <div className="relative -mt-32">
                       <Link
                         href="/"
-                        className="inline-flex h-content w-auto fill-red-500 dark:fill-yellow-300 border-truePurple-800 hover:border-trueZinc-600 rounded-half h-auto align-middle border-2 max-w-150-px focus:bg-trueZinc-500"
+                        alt="Home"
+                        className="inline-flex h-content w-auto border-truePurple-800 hover:border-trueZinc-100 rounded-half h-auto align-middle border-2 max-w-150-px focus:bg-trueZinc-500"
                       >
                         <Image
                           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/avatar.png"
@@ -100,10 +101,10 @@ export default function About() {
                         </button>
                       </div>
 
-                      <div className="lg:mr-4 p-3 text-center">
+                      <div className="mr-4 p-3 text-center">
                         {/*<span className=" text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">*/}
                         <button
-                          className="p-2 bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <Link
@@ -119,10 +120,10 @@ export default function About() {
                           </Link>
                         </button>
                       </div>
-                      <div className="lg:mr-4 p-3 text-center">
+                      <div className="mr-4 p-3 text-center">
                         {/*<span className=" text-xl font-bold block uppercase tracking-wide text-trueZinc-700 dark:text-trueZinc-100">*/}
                         <button
-                          className="p-2 bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                          className="bg-truePurple-600 text-trueZinc-100 w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <Link

@@ -15,7 +15,7 @@ export default function Home() {
       <SEO title="Home | 0xaloysius" description="Home 0xaloysius." />
       <Navbar />
       <Hero />
-      <SectionTitle pretitle="Our Story" title="The 0xaloysius Portfolio">
+      <SectionTitle pretitle="The Story" title="Portfolio Organizations">
         The portfolio is comprised of five (5) companies & one (1) non-profit.
         Each company is focused on a specific mission and innovations within its
         industry.
