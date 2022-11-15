@@ -17,7 +17,7 @@ export default function Cta() {
             href="/portfolio"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-trueZinc-100 bg-truePurple-600 rounded-md px-7 lg:px-10 lg:py-5 "
           >
-            View Our Portfolio
+            View The Portfolio
           </Link>
         </div>
       </div>

@@ -20,11 +20,14 @@ export default function Portfolio() {
       <SEO title="Portfolio | 0xaloysius" description="Portfolio 0xaloysius." />
 
       <Navbar />
-      <SectionTitle pretitle="Mission Statement" title="Mission Statement">
+      <SectionTitle pretitle="Key Business Drivers" title="The Mission">
         Support diversified investments in Southern Californian start-ups and
         communities to create sustainable, renewable & secure platforms.
       </SectionTitle>
-      <SectionTitle pretitle="Cornerstone Ecosystem" title="Portfolio">
+      <SectionTitle
+        pretitle="Cornerstone Sustainable Ecosystems"
+        title="The Portfolio"
+      >
         Collaborate and invest with the SoCal business & tech communities and
         foster employment in our business ventures.
       </SectionTitle>
@@ -73,7 +76,7 @@ function Card1() {
         <Image
           alt="Lexington Tech LLC"
           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
-          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600 hover:border-truePurple-600"
           height={150}
           width={150}
           priority="true"
@@ -84,7 +87,10 @@ function Card1() {
           President
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
-          Lexington Tech LLC
+          Lexington Tech LLC.
+        </p>
+        <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+          Management Consultant
         </p>
         <div className="mt-6">
           <Link
@@ -112,18 +118,22 @@ function Card2() {
         <Image
           alt="del SOL"
           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi-light.svg"
-          className="shadow-lg rounded-half mx-auto max-w-120-px fill-trueZinc-700 dark:fill-trueZinc-100 border-2 border-solid border-trueZinc-1100 p-2"
+          className="shadow-lg rounded-half mx-auto max-w-120-px fill-trueZinc-700 dark:fill-trueZinc-100 border-2 border-solid border-trueZinc-100 p-2 hover:bg-truePurple-600"
           height={150}
           width={150}
         />
       </Link>
-      <div className="pt-8 text-center">
+      <div className="pt-4 text-center">
         <h5 className="text-xl font-bold text-trueZinc-700 dark:text-trueZinc-100">
-          Managing Partner
+          Director
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 font-semibold">
           del SOL VENTURES INC.
         </p>
+        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+          Venture Capital & Investment
+        </p>
+
         <div className="mt-6">
           <Link
             href="https://linkedin.com/company/delsolventures"
@@ -150,7 +160,7 @@ function Card3() {
         <Image
           alt="4 Mo Beers"
           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-4mobeers.svg"
-          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
         />
@@ -160,7 +170,10 @@ function Card3() {
           Beer Shark
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
-          4MB Inc.
+          4MoBeers Inc.
+        </p>
+        <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+          WEB3, Gaming & Sports Book
         </p>
         <div className="mt-6">
           <Link
@@ -188,7 +201,7 @@ function Card4() {
         <Image
           alt="las Playas"
           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lasplayas.svg"
-          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
         />
@@ -200,6 +213,10 @@ function Card4() {
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Las Playas Inc.
         </p>
+        <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+          Bar & Grill
+        </p>
+
         <div className="mt-6">
           <Link
             href="https://linkedin.com/company/lasplayas"
@@ -230,7 +247,7 @@ function Card5() {
         <Image
           alt="Sunset Ventures"
           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
-          className="shadow-lg rounded-full mx-auto max-w-120-px"
+          className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
         />
@@ -241,6 +258,9 @@ function Card5() {
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Sunset Ventures Inc.
+        </p>
+        <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+          Quantitative Investment
         </p>
         <div className="mt-6">
           <Link
@@ -268,7 +288,7 @@ function Card6() {
         <Image
           alt="SAVI"
           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
-          className="shadow-lg rounded-half mx-auto max-w-120-px"
+          className="shadow-lg rounded-half mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
         />
@@ -279,6 +299,9 @@ function Card6() {
         </h5>
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold">
           Strategic Alliance Veteran Integration
+        </p>
+        <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+          Veteran Transition & Benefits
         </p>
         <div className="mt-6">
           <Link

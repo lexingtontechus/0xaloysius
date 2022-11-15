@@ -11,7 +11,7 @@ export default function Testimonials() {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-trueGray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-trueZinc-100 px-14 rounded-2xl py-14 dark:bg-trueZinc-800">
             <p className="text-2xl leading-normal ">
               Share a real <Mark>testimonial</Mark>
               that hits some of your benefits from one of your popular customer.
@@ -25,7 +25,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-trueGray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-trueZinc-100 px-14 rounded-2xl py-14 dark:bg-trueZinc-800">
             <p className="text-2xl leading-normal ">
               Make sure you only pick the <Mark>right sentence</Mark>
               to keep it short and simple.
@@ -39,7 +39,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-trueGray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-trueZinc-100 px-14 rounded-2xl py-14 dark:bg-trueZinc-800">
             <p className="text-2xl leading-normal ">
               This is an <Mark>awesome</Mark> landing page template I&apos;ve
               seen. I would use this for anything.
@@ -72,7 +72,7 @@ function Avatar(props) {
       </div>
       <div>
         <div className="text-lg font-medium">{props.name}</div>
-        <div className="text-trueGray-600 dark:text-trueGray-400">
+        <div className="text-trueZinc-600 dark:text-trueZinc-400">
           {props.title}
         </div>
       </div>
@@ -84,7 +84,7 @@ function Mark(props) {
   return (
     <>
       {" "}
-      <mark className="text-trueGray-800 bg-trueSky-100 rounded-md ring-trueSky-100 ring-4 dark:ring-trueSky-900 dark:bg-trueSky-900 dark:text-trueSky-200">
+      <mark className="text-trueZinc-800 bg-trueSky-100 rounded-md ring-trueSky-100 ring-4 dark:ring-trueSky-900 dark:bg-trueSky-900 dark:text-trueSky-200">
         {props.children}
       </mark>{" "}
     </>

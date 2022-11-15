@@ -1,11 +1,11 @@
 .darkmode {
-  background-color: #ea580c; /*orange-600*/
+  background-color: #ea580c; /*zinc-900*/
   color: #f3f4f6; /*gray-100*/
 }
 .lightmode {
-  background-color: #2563eb; /*#fb923c /*orange-400*/
+  background-color: #93c5fd; /*#fb923c /*blue-300*/
   color: #374151; /*gray-700*/
 }
 .body {
-  background-color: #ea580c; /*orange-600*/
+  background-color: #ea580c; /*zinc-900*/
 }

@@ -8,10 +8,10 @@ export default function Hero() {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-trueGray-700 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-trueGray-100">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-trueZinc-700 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-trueZinc-100">
               WEB3 & Sustainable Ecosystems
             </h1>
-            <div className="pt-8 text-xl leading-normal text-trueGray-700 lg:text-xl xl:text-2xl dark:text-trueGray-100">
+            <div className="pt-8 text-xl leading-normal text-trueZinc-700 lg:text-xl xl:text-2xl dark:text-trueZinc-100">
               Transitioning to a world of new protocols, digital ownership and
               systems powering new technologies.
             </div>
@@ -30,7 +30,7 @@ export default function Hero() {
       </Container>
       <Container>
         <div className="flex flex-col justify-center">
-          <h2 className="text-xl text-center text-trueGray-700 dark:text-trueGray-100">
+          <h2 className="text-xl text-center text-trueZinc-700 dark:text-trueZinc-100">
             Building diverse companies in Southern California.
           </h2>
         </div>

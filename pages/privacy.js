@@ -20,10 +20,10 @@ export default function Privacy() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="h1 uppercase text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100 font-semibold text-5xl">
+                <div className="h1 uppercase text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueZinc-100 font-semibold text-5xl">
                   Privacy Notice
                 </div>
-                <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
+                <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueZinc-100">
                   Last Updated 1 Jan {new Date().getFullYear()}
                 </div>
               </div>
@@ -35,13 +35,7 @@ export default function Privacy() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full  ml-auto mr-auto px-4">
-                <div className="h2 uppercase text-2xl text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
-                  Privacy Notice
-                </div>
-                <div className="mt-4 text-lg text-trueZinc-700 dark:text-trueZinc-100 dark:text-trueGray-100">
-                  Last Updated 1 Jan {new Date().getFullYear()}
-                </div>
-              </div>
+               
               <Collapse.Group
                 splitted
                 className="text-trueZinc-700 dark:text-trueZinc-100"
@@ -470,6 +464,8 @@ export default function Privacy() {
                   </p>
                 </Collapse>
               </Collapse.Group>
+              
+              </div>
             </div>
           </div>
         </section>
