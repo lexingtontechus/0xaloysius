@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 
 const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
@@ -14,20 +12,20 @@ const ThemeChanger = () => {
 
   return (
     <div className="flex items-center">
-      {theme === "dark" ? (
+      {theme === "light" ? (
         <button
-          onClick={() => setTheme("light")}
-          className="rounded-full outline-none focus:outline-none fill-truePurple-900 dark:fill-yellow-300 "
+          onClick={() => setTheme("dark")}
+          className="rounded-full outline-none focus:outline-none"
         >
-          <span className="sr-only">Light Mode</span>
+          <span className="sr-only">Dark Mode</span>
           <Surf />
         </button>
       ) : (
         <button
-          onClick={() => setTheme("dark")}
-          className="fill-truePurple-900 dark:fill-yellow-300 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-orange-100 focus:ring-opacity-20"
+          onClick={() => setTheme("light")}
+          className="rounded-full outline-none focus:outline-none"
         >
-          <span className="sr-only">Dark Mode</span>
+          <span className="sr-only">Light Mode</span>
           <Beach />
         </button>
       )}
@@ -42,6 +40,7 @@ function Surf() {
       viewBox="0 0 100 75.98832096404249"
       width="20"
       height="20"
+      className="fill-truePurple-900"
     >
       <g transform="translate(-19.960103779492492, -31.96757392591492) scale(1.399212643983691)">
         <g xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +57,7 @@ function Beach() {
       viewBox="0 0 100 99.71349821261099"
       width="20"
       height="20"
+      className="fill-yellow-300"
     >
       <g transform="translate(-12.471372658429047, -12.589376587183173) scale(1.2472138655103955)">
         <path
