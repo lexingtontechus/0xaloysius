@@ -1,3 +1,4 @@
+'use client';
 import Hero from "../components/hero";
 import SectionTitle from "../components/sectionTitle";
 import SEO from "../components/seo";
