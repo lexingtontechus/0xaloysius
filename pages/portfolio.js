@@ -9,9 +9,7 @@ import Footer from "../components/footer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faLinkedinIn,
-  faDiscord,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Portfolio() {
