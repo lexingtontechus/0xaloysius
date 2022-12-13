@@ -15,14 +15,14 @@ export default function Home() {
       <SEO title="Home | 0xaloysius" description="Home 0xaloysius." />
       <Navbar />
       <Hero />
-      <SectionTitle pretitle="The Story" title="Portfolio Organizations">
-        The portfolio is comprised of five (5) companies & one (1) non-profit.
+      <SectionTitle pretitle="0x Stack" title="Portfolio Organizations">
+        The 0x portfolio is comprised of five (5) companies & one (1) non-profit.
         Each company is focused on a specific mission and innovations within its
         industry.
       </SectionTitle>
       <Cta />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        How can an organization partner with 0xaloysius?
+        Partnering with 0xaloysius?
       </SectionTitle>
       <Faq />
 

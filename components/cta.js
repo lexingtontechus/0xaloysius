@@ -8,7 +8,7 @@ export default function Cta() {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-trueZinc-700 dark:trueZinc-100 bg-trueZinc-50 dark:bg-trueZinc-800 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl text-trueZinc-700 dark:text-trueZinc-100">
-            Ready to explore our ventures with us?
+            Ready to explore our ventures with 0xaloysius?
           </h2>
           <p className="mt-2 font-medium text-trueZinc-700 dark:text-trueZinc-100 text-opacity-90 lg:text-xl"></p>
         </div>
