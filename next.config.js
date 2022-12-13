@@ -9,7 +9,7 @@ const nextConfig = {
         hostname: "**.fleek.co/**",
         pathname: "/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/**",
       },
-      images.unoptimized = true
+      (images.unoptimized = true),
     ],
     domains: ["storageapi.fleek.co"],
     loader: "custom",
@@ -17,10 +17,9 @@ const nextConfig = {
   },
   exportPathMap: function () {
     return {
-      "/": { page: "/" }
+      "/": { page: "/" },
     };
-  }
+  },
 };
 
 module.exports = nextConfig;
-
