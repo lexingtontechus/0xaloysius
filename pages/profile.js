@@ -178,8 +178,8 @@ export default function About() {
 
                   <div className="text-trueZinc-700 dark:text-trueZinc-100 mx-4">
                     <p className="italic mt-2 ">
-                      Building strategic partnerships with 0xaloysius portfolio
-                      businesses.
+                      Building strategic partnerships across the 0xaloysius
+                      portfolio businesses.
                     </p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ export default function About() {
                         sustainable & diverse companies & platforms.
                       </h3>
                       <h3 className="text-xl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
-                        Portfolio & industry focus on,
+                        Portfolio & industry focus in,
                       </h3>
                       <div className="my-8 text-lg leading-relaxed text-trueZinc-700 dark:text-trueZinc-100">
                         <p className="my-4">
@@ -216,7 +216,7 @@ export default function About() {
                             className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
                             aria-hidden="true"
                           />
-                          EV Startups.
+                          EV Startups & Infrastructure.
                         </p>
                         <p className="my-4">
                           <FontAwesomeIcon
@@ -224,7 +224,7 @@ export default function About() {
                             className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
                             aria-hidden="true"
                           />
-                          WEB3 & gaming.
+                          WEB3 & Gaming.
                         </p>
                       </div>
                     </div>

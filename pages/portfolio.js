@@ -20,16 +20,16 @@ export default function Portfolio() {
       <SEO title="Portfolio | 0xaloysius" description="Portfolio 0xaloysius." />
 
       <Navbar />
-      <SectionTitle pretitle="Key Business Drivers" title="The Mission">
+      <SectionTitle pretitle="Core Vision" title="The 0x Mission">
         Support diversified investments in Southern Californian start-ups and
-        communities to create sustainable, renewable & secure platforms.
+        communities to create sustainable, renewable & secure platforms and services.
       </SectionTitle>
       <SectionTitle
         pretitle="Cornerstone Sustainable Ecosystems"
         title="The Portfolio"
       >
         Collaborate and invest with the SoCal business & tech communities and
-        foster employment in our business ventures.
+        foster employment in the 0x portfolio and partner ventures.
       </SectionTitle>
 
       <div className="container  items-center p-8 mx-auto w-full place-content-center">
@@ -90,7 +90,7 @@ function Card1() {
           Lexington Tech LLC.
         </p>
         <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
-          Management Consultant
+          Management Consultancy
         </p>
         <div className="mt-6">
           <Link
@@ -130,7 +130,7 @@ function Card2() {
         <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 font-semibold">
           del SOL VENTURES INC.
         </p>
-        <p className="mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
+        <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
           Venture Capital & Investment
         </p>
 

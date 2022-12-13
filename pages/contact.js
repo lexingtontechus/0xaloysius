@@ -218,22 +218,7 @@ export default function Contact() {
                       )}
                     </button>
                   </div>
-                  <p
-                    className="text-xs text-center text-trueZinc-400"
-                    id="result"
-                  >
-                    <span>
-                      Powered by{" "}
-                      <a
-                        href="https://Web3Forms.com"
-                        className="text-trueZinc-600 font-bold"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Web3Forms
-                      </a>
-                    </span>
-                  </p>
+                 
                 </form>
               )}
 
