@@ -22,7 +22,7 @@ export default function Home() {
       </SectionTitle>
       <Cta />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Partnering with 0xaloysius?
+        How to partner or work with 0xaloysius?
       </SectionTitle>
       <Faq />
 

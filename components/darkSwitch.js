@@ -38,8 +38,8 @@ function Surf() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 75.98832096404249"
-      width="20"
-      height="20"
+      width="30"
+      height="30"
       className="fill-truePurple-900"
     >
       <g transform="translate(-19.960103779492492, -31.96757392591492) scale(1.399212643983691)">
@@ -55,8 +55,8 @@ function Beach() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 99.71349821261099"
-      width="20"
-      height="20"
+      width="30"
+      height="30"
       className="fill-yellow-300"
     >
       <g transform="translate(-12.471372658429047, -12.589376587183173) scale(1.2472138655103955)">
