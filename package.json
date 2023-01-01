@@ -8,8 +8,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "post-update": "yarn upgrade --latest"
+    "post-update": "yarn upgrade --latest",
+    "export": "next export"
   },
   "repository": {
     "type": "git",

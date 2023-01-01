@@ -236,7 +236,7 @@ function Card4() {
           Las Playas Inc.
         </p>
         <p className="italic mt-1 text-sm text-trueZinc-700 dark:text-trueZinc-100 uppercase font-semibold pt-4">
-          Bar & Grill
+          Food, Beverage & Entertainment
         </p>
 
         <div className="mt-6">
