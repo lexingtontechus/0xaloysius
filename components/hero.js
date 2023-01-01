@@ -13,7 +13,7 @@ export default function Hero() {
             </h1>
             <div className="pt-8 text-xl leading-normal text-trueZinc-700 lg:text-xl xl:text-2xl dark:text-trueZinc-100">
               Transitioning to a world of new protocols, digital ownership and
-              systems powering new technologies.
+              systems powering new technologies & WEB3.
             </div>
           </div>
         </div>

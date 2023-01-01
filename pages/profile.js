@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Text, Image } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -11,11 +11,7 @@ import {
   faGamepad,
   faU,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faLinkedin,
-  faLinkedinIn,
-  faDiscord,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 //import Image from "next/image";
 import SectionTitle from "../components/sectionTitle";
 import SEO from "../components/seo";
