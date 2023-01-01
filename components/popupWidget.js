@@ -110,7 +110,7 @@ export default function PopupWidget() {
               leaveTo="opacity-0 translate-y-5"
             >
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-trueZinc-300 dark:border-trueZinc-800 bg-trueZinc-100 shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
-                <div className="flex flex-col items-center justify-center h-32 p-5 bg-trueZinc-600">
+                <div className="flex flex-col items-center justify-center h-32 p-5 bg-truePurple-600">
                   <h3 className="text-lg text-trueZinc-100">
                     How can we help?
                   </h3>
@@ -118,7 +118,7 @@ export default function PopupWidget() {
                     We usually respond in a few hours
                   </p>
                 </div>
-                <div className="flex-grow h-full p-6 overflow-auto bg-trueZinc-50 ">
+                <div className="flex-grow h-full p-6 overflow-auto bg-trueZinc-50">
                   {!isSubmitSuccessful && (
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
@@ -262,7 +262,6 @@ export default function PopupWidget() {
                           )}
                         </button>
                       </div>
-                      
                     </form>
                   )}
 

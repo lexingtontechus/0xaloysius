@@ -1,3 +1,4 @@
+'use client';
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,9 +10,7 @@ import Footer from "../components/footer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faLinkedinIn,
-  faDiscord,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Portfolio() {
@@ -65,6 +64,25 @@ export default function Portfolio() {
   );
 }
 
+const LogoLXT = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
+const LogoDSVI = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
+const Logo4MB = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
+const LogoLasPlayas = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
+const LogoSV = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
+const LogoSAVI = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
+
 function Card1() {
   return (
     <div className="px-6">
@@ -74,8 +92,9 @@ function Card1() {
         alt="Lexington Tech"
       >
         <Image
+        loader={LogoLXT}
           alt="Lexington Tech LLC"
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
+          src="/logo-lxt.svg"
           className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600 hover:border-truePurple-600"
           height={150}
           width={150}
@@ -116,8 +135,9 @@ function Card2() {
     <div className="px-6 fill-trueZinc-700 dark:fill-trueZinc-100">
       <Link href="https://delsolventures.nft" target="_blank" alt="del SOL">
         <Image
+        loader={LogoDSVI}
           alt="del SOL"
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi-light.svg"
+          src="/logo-dsvi-light.svg"
           className="shadow-lg rounded-half mx-auto max-w-120-px fill-trueZinc-700 dark:fill-trueZinc-100 border-2 border-solid border-trueZinc-100 p-2 hover:bg-truePurple-600"
           height={150}
           width={150}
@@ -158,8 +178,9 @@ function Card3() {
     <div className="px-6">
       <Link href="https://4mobeers.nft" target="_blank" alt="4 Mo Beers">
         <Image
+        loader={Logo4MB}
           alt="4 Mo Beers"
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-4mobeers.svg"
+          src="/logo-4mobeers.svg"
           className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
@@ -199,8 +220,9 @@ function Card4() {
     <div className="px-6">
       <Link href="https://lasplayas.nft" target="_blank" alt="las Playas">
         <Image
+        loader={LogoLasPlayas}
           alt="las Playas"
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lasplayas.svg"
+          src="/logo-lasplayas.svg"
           className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
@@ -245,8 +267,9 @@ function Card5() {
         alt="Sunset Ventures"
       >
         <Image
+        loader={LogoSV}
           alt="Sunset Ventures"
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
+          src="/logo-sunset.svg"
           className="shadow-lg rounded-full mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}
@@ -286,8 +309,9 @@ function Card6() {
     <div className="px-6">
       <Link href="https://savivets.org" target="_blank" alt="SAVI">
         <Image
+        loader={LogoSAVI}
           alt="SAVI"
-          src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
+          src="/logo-savi.svg"
           className="shadow-lg rounded-half mx-auto max-w-120-px hover:bg-truePurple-600"
           height={150}
           width={150}

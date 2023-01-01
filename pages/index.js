@@ -1,3 +1,4 @@
+'use client';
 import Hero from "../components/hero";
 import SectionTitle from "../components/sectionTitle";
 import SEO from "../components/seo";
@@ -22,7 +23,7 @@ export default function Home() {
       </SectionTitle>
       <Cta />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        How to partner with 0xaloysius?
+        How to partner or work with 0xaloysius?
       </SectionTitle>
       <Faq />
 

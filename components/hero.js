@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Container from "./container";
 
+const HeroImage = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${quality || 75}`;
+};
 export default function Hero() {
   return (
     <>
@@ -20,7 +23,8 @@ export default function Hero() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="visible lg:block">
             <Image
-              src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/hero.png"
+            loader={HeroImage}
+              src="/hero.png"
               width={200}
               height={200}
               alt="0xhero"

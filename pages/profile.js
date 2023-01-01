@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import Link from "next/link";
 import { Image } from "@nextui-org/react";
@@ -20,7 +21,12 @@ import Footer from "../components/footer";
 import PopupWidget from "../components/popupWidget";
 //import Testimonials from "../components/testimonials.js";
 
-export default function About() {
+const AvatarImage = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/${src}?w=${width}&q=${
+    quality || 75
+  }`;
+};
+export default function Profile() {
   return (
     <>
       <SEO title="About | 0xaloysius" description="About 0xaloysius." />
@@ -41,6 +47,7 @@ export default function About() {
                         <Image
                           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/avatar.png"
                           alt="0xaloysius Avatar"
+
                           priority="true"
                         />
                       </Link>
