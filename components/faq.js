@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Faq() {
   return (
     <Container className="!p-0">
-      <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
+      <div className="w-full p-4 mx-auto rounded-2xl">
         <Disclosure>
           {({ open }) => (
             <>
@@ -27,7 +27,7 @@ export default function Faq() {
                     />
                   }
                 >
-                  <p className="text-sm text-trueZinc-700">
+                  <p className="text-md text-trueZinc-700">
                     The 0x portfolio partners with & employs people with a wide
                     range of skills & experience.
                   </p>
@@ -42,7 +42,7 @@ export default function Faq() {
                     />
                   }
                 >
-                  <p className="text-sm text-trueZinc-700">
+                  <p className="text-md text-trueZinc-700">
                     Our portfolio businesses are hiring! Book a meeting with me
                     to discuss new possibilities.
                   </p>
@@ -57,11 +57,10 @@ export default function Faq() {
                     />
                   }
                 >
-                  <p className="text-sm text-trueZinc-700">
+                  <p className="text-md text-trueZinc-700">
                     Book an introduction call with me!
                   </p>
                 </Collapse>
-
               </Collapse.Group>
             </>
           )}
