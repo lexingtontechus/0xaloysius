@@ -61,20 +61,7 @@ export default function Faq() {
                     Book an introduction call with me!
                   </p>
                 </Collapse>
-                <Collapse
-                  title="How do I work with 4MoBeers?"
-                  arrowIcon={
-                    <ChevronUpIcon
-                      className={`${
-                        open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-truePurple-900`}
-                    />
-                  }
-                >
-                  <p className="text-sm text-trueZinc-700">
-                    We love colabs! Send us a message or Beer Us!
-                  </p>
-                </Collapse>
+
               </Collapse.Group>
             </>
           )}
