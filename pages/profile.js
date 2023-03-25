@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import Link from "next/link";
 import { Image } from "@nextui-org/react";
@@ -47,7 +47,6 @@ export default function Profile() {
                         <Image
                           src="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/avatar.png"
                           alt="0xaloysius Avatar"
-
                           priority="true"
                         />
                       </Link>
@@ -116,10 +115,10 @@ export default function Profile() {
                             rel="noreferrer"
                             alt="Unstoppable Domains"
                           >
-                            <FontAwesomeIcon
-                              icon={faU}
-                              className="text-trueZinc-100"
-                            />
+                            <svg className="fill-trueZinc-100">
+                              <path d="M38.3333 3.90803V16.5517L1.66666 31.4942L38.3333 3.90803Z" />
+                              <path d="M31.4583 3.33333V25.1724C31.4583 31.5203 26.3281 36.6667 20 36.6667C13.6719 36.6667 8.54166 31.5203 8.54166 25.1724V15.977L15.4167 12.1839V25.1724C15.4167 26.2394 15.8392 27.2626 16.5913 28.0171C17.3434 28.7716 18.3635 29.1954 19.4271 29.1954C20.4907 29.1954 21.5108 28.7716 22.2629 28.0171C23.015 27.2626 23.4375 26.2394 23.4375 25.1724V7.75862L31.4583 3.33333Z" />
+                            </svg>
                           </Link>
                         </button>
                       </div>

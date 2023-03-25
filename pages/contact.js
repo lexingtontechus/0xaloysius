@@ -54,7 +54,7 @@ export default function Contact() {
     <>
       <SEO title="Contact | 0xaloysius" description="Contact 0xaloysius." />
       <Navbar />
-      <div className="h-full w-full">
+      <div className="h-full w-full py-8">
         <div className="relative py-8 flex content-center items-center justify-center min-h-screen-75">
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
@@ -218,7 +218,6 @@ export default function Contact() {
                       )}
                     </button>
                   </div>
-                 
                 </form>
               )}
 

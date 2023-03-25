@@ -35,22 +35,22 @@ export default function Portfolio() {
         <section className="">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4 py-4">
                 <Card1 />
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4 py-4">
                 <Card2 />
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4 py-4">
                 <Card3 />
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4 py-4">
                 <Card4 />
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4 py-4">
                 <Card5 />
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 py-4">
+              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4 py-4">
                 <Card6 />
               </div>
             </div>
