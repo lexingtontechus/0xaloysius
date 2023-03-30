@@ -5,12 +5,12 @@ import Container from "./container";
 export default function Cta() {
   return (
     <Container>
-      <div className="flex flex-wrap items-center justify-between w-full gap-5 mx-auto text-trueZinc-700 dark:trueZinc-100 bg-trueZinc-50 dark:bg-trueZinc-800 p-4 lg:flex-nowrap rounded-xl">
+      <div className="flex flex-wrap items-center justify-between w-full gap-5 mx-auto text-trueZinc-700 dark:trueZinc-700 bg-trueZinc-50 dark:bg-trueZinc-50 p-4 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
-          <h2 className="text-2xl font-medium lg:text-3xl text-trueZinc-700 dark:text-trueZinc-100">
+          <h2 className="text-2xl font-medium lg:text-3xl text-trueZinc-700 dark:text-trueZinc-700">
             Ready to explore our ventures with 0xaloysius?
           </h2>
-          <p className="mt-2 font-medium text-trueZinc-700 dark:text-trueZinc-100 text-opacity-90 lg:text-xl"></p>
+          <p className="mt-2 font-medium text-trueZinc-700 dark:text-trueZinc-700 text-opacity-90 lg:text-xl"></p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <Link

@@ -53,6 +53,10 @@ class MyDocument extends Document {
             rel="icon"
             href="https://storageapi.fleek.co/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logoyellow-0xaloysius.svg"
           />
+          <link
+            href="https://link.storjshare.io/jwo356juoeizleepewtdelufaomq/0xaloysius%2Fassets%2Fstyles%2Fcustom.css"
+            rel="stylesheet"
+          />
         </Head>
         <body className="lightmode dark:darkmode">
           <Main />

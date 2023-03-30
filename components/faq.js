@@ -1,14 +1,14 @@
 import React from "react";
 import Container from "./container";
 import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/solid";
+import { ChevronUpIcon } from "@heroicons/react/20/solid";
 import { Collapse } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function Faq() {
   return (
     <Container className="!p-0">
-      <div className="w-full p-4 mx-auto rounded-2xl">
+      <div className="w-full mx-auto rounded-2xl">
         <Disclosure>
           {({ open }) => (
             <>
