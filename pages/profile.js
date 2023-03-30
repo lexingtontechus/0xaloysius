@@ -34,7 +34,7 @@ export default function Profile() {
       <main className="about-page h-full">
         <section className="relative py-16 ">
           <div className="container mx-auto px-4">
-            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-xl rounded-lg mt-32 bg-gradient-to-l from-trueZinc-400 to-trueZinc-600">
+            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-xl rounded-lg mt-32 bg-gradient-to-r from-truePurple-400 to-truePurple-600">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
@@ -158,13 +158,13 @@ export default function Profile() {
                       </g>
                     </svg>
                   </h3>
-                  <p className="font-semibold text-trueZinc-700 dark:text-trueZinc-100 mb-4">
-                    Technologist. Entrepeneur.
+                  <p className="text-xl font-semibold text-trueZinc-700 dark:text-trueZinc-100 mb-4">
+                    Technologist. Entrepreneur.
                   </p>
                   <div className="text-sm leading-normal mt-0 my-4 text-trueZinc-700 dark:text-trueZinc-100 font-bold uppercase">
                     <FontAwesomeIcon
                       icon={faLocationDot} //"fa-solid fa-location-dot "
-                      className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
+                      className="mr-2 text-xl text-trueZinc-700 dark:text-trueZinc-100"
                       aria-hidden="true"
                     />
                     Los Angeles, California
@@ -172,14 +172,14 @@ export default function Profile() {
                   <div className="text-sm leading-normal mt-0 my-4 text-trueZinc-700 dark:text-trueZinc-100 font-bold lowercase">
                     <FontAwesomeIcon
                       icon={faAt} //"fa-solid fa-at "
-                      className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
+                      className="mr-2 text-xl text-trueZinc-700 dark:text-trueZinc-100"
                       aria-hidden="true"
                     />
                     <span>0xaloysius@skiff.com</span>
                   </div>
 
                   <div className="text-trueZinc-700 dark:text-trueZinc-100 mx-4">
-                    <p className="italic mt-2 ">
+                    <p className="text-xl italic mt-2 ">
                       Building strategic partnerships across the 0xaloysius
                       portfolio businesses.
                     </p>
@@ -188,42 +188,42 @@ export default function Profile() {
                 <div className="mt-8 py-10 border-t border-trueZinc-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <h3 className="text-xl font-semibold leading-normal my-2 text-trueZinc-700 dark:text-trueZinc-100">
-                        Creating bold investment strategies in innovative
-                        sustainable & diverse companies & platforms.
+                      <h3 className="text-xxl font-semibold leading-normal my-2 text-trueZinc-700 dark:text-trueZinc-100">
+                        Bold investment strategies in innovative & diverse
+                        companies & platforms.
                       </h3>
-                      <h3 className="text-xl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
+                      <h3 className="text-xxl font-semibold leading-normal my-4 text-trueZinc-700 dark:text-trueZinc-100">
                         Portfolio & industry focus in,
                       </h3>
-                      <div className="my-8 text-lg leading-relaxed text-trueZinc-700 dark:text-trueZinc-100">
-                        <p className="my-4">
+                      <div className="my-8 leading-relaxed text-trueZinc-700 dark:text-trueZinc-100">
+                        <p className="my-4 text-xl">
                           <FontAwesomeIcon
                             icon={faPlugCircleBolt}
-                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100 "
+                            className="mr-2 text-xl text-trueZinc-700 dark:text-trueZinc-100 "
                             aria-hidden="true"
                           />
                           Renewalable energy solutions.
                         </p>
-                        <p className="my-4">
+                        <p className="my-4 text-xl">
                           <FontAwesomeIcon
                             icon={faBuildingWheat}
-                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100 "
+                            className="mr-2 text-xl text-trueZinc-700 dark:text-trueZinc-100 "
                             aria-hidden="true"
                           />
                           Sustainable agritech systems.
                         </p>
-                        <p className="my-4">
+                        <p className="my-4 text-xl">
                           <FontAwesomeIcon
                             icon={faCompass}
-                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
+                            className="mr-2 text-xl text-trueZinc-700 dark:text-trueZinc-100"
                             aria-hidden="true"
                           />
                           EV Startups & Infrastructure.
                         </p>
-                        <p className="my-4">
+                        <p className="my-4 text-xl">
                           <FontAwesomeIcon
                             icon={faGamepad}
-                            className="mr-2 text-lg text-trueZinc-700 dark:text-trueZinc-100"
+                            className="mr-2 text-xl text-trueZinc-700 dark:text-trueZinc-100"
                             aria-hidden="true"
                           />
                           WEB3 & Gaming.

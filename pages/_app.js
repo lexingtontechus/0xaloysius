@@ -17,10 +17,12 @@ function MyApp({ Component, pageProps }) {
       const cal = await getCalApi();
       cal("floatingButton", {
         calLink: "0xaloysius/30min",
-        buttonText: "Book Me",
-        buttonColor: "#7e22ce",
+        buttonText: "0x",
+        buttonColor: "#09090b",
         buttonTextColor: "#f4f4f5",
         buttonPosition: "bottom-left",
+        hideButtonIcon: true,
+        borderColor: "#a855f7",
       });
       cal("ui", {
         theme: "dark",
