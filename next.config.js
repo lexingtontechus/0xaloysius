@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  basePath: "",
+  output: 'export',
   reactStrictMode: true,
+  trailingSlash: true,  
   images: {
-    //domains: ["storageapi.fleek.co", "savivets.wpengine.com"],
+    unoptimized: true,  
     remotePatterns: [
       {
         protocol: "https",
@@ -14,15 +20,6 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     domains: ["storageapi.fleek.co"],
     loader: "custom",
-  },
-  exportPathMap: function () {
-    return {
-      "/": { page: "/" },
-      "/profile": { page: "/profile" },
-      "/contact": { page: "/contact" },
-      "/terms": { page: "/terms" },
-      "/privacy": { page: "/privacy" },
-    };
   },
 };
 
