@@ -3,7 +3,14 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
-  content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   darkMode: "class", // or 'media' or 'class'
 
   backgroundImage: {
@@ -14,16 +21,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        trueGray: colors.gray,
-        trueAmber: colors.amber,
-        trueOrange: colors.orange,
-        trueSky: colors.sky,
-        trueRed: colors.red,
-        truePurple: colors.purple,
-        trueZinc: colors.zinc,
-        trueEmerald: colors.emerald,
-        trueBlue: colors.blue,
-        trueYellow: colors.yellow,
+        gray: colors.gray,
+        amber: colors.amber,
+        orange: colors.orange,
+        sky: colors.sky,
+        red: colors.red,
+        purple: colors.purple,
+        zinc: colors.zinc,
+        emerald: colors.emerald,
+        blue: colors.blue,
+        yellow: colors.yellow,
       },
     },
     fontFamily: {
@@ -34,5 +41,47 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "aqua",
+      "coffee",
+      {
+        xlight: {
+          primary: "#60a5fa", //blue400
+          "primary-focus": "#7e22ce", //purple700
+          "primary-content": "#09090b", //zinc950
+          secondary: "#fbbf24", //amber400
+          "secondary-focus": "",
+          "secondary-content": "",
+          accent: "#7e22ce", //purple700
+          neutral: "#71717a", //zinc500
+          "base-100": "#60a5fa", //blue400
+          "base-200": "#d97706", //amber600
+          "base-300": "#fafafa", //zinc50
+          info: "#60a5fa", //blue400
+          success: "#489380",
+          warning: "#eb8014",
+          error: "#e01a2e",
+        },
+        xdark: {
+          primary: "#09090b", //zinc950
+          "primary-focus": "#7e22ce", //purple700
+          "primary-content": "#f4f4f5", //zinc100
+          secondary: "#581c87", //purple900
+          "secondary-focus": "",
+          "secondary-content": "",
+          accent: "#c026d3", //zinc700
+          neutral: "#71717a", //zinc500
+          "base-100": "#18181b", //zinc900
+          "base-200": "#9333ea", //purplee600
+          "base-300": "#fafafa", //zinc50
+          info: "#18181b", //zinc900
+          success: "#489380",
+          warning: "#eb8014",
+          error: "#e01a2e",
+        },
+      },
+    ],
+  },
 };
