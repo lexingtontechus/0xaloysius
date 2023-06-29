@@ -13,11 +13,11 @@ export default function MyCal() {
         buttonTextColor: "#f4f4f5",
         buttonPosition: "bottom-left",
         hideButtonIcon: true,
-        borderColor: "#a855f7",
+        borderColor: "#7e22ce",
       });
       cal("ui", {
         theme: "dark",
-        styles: { branding: { brandColor: "ea580c" } },
+        styles: { branding: { brandColor: "#18181b" } },
         hideEventTypeDetails: false,
       });
     })();

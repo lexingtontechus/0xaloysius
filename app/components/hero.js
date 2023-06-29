@@ -11,12 +11,12 @@ export default function Hero() {
     <div className="hero min-h-screen bg-secondary mx-auto">
       <div className="hero-content text-center">
         <div className="max-w-lg">
-          <img
-            src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/hero.png"
-            className="mx-auto shadow-2xl max-w-96 rounded-lg ring ring-primary ring-offset-base-100 ring-offset-2"
-          />
+          <div className="avatar mt-4">
+            <div className="max-w-96 rounded-lg ring ring-primary ring-offset-base-100 ring-offset-2">
+              <img src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/avatar.png" />
+            </div>
+          </div>
           <h1 className="text-5xl font-bold mt-4">
-            {" "}
             WEB3 & Sustainable Ecosystems
           </h1>
           <h2 className="py-6 text-3xl">
