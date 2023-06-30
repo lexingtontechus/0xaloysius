@@ -6,7 +6,7 @@ export default function Loading() {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold text-accent uppercase">
-            Generating{" "}
+            Generating
           </h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
