@@ -35,7 +35,7 @@ export default function Navbar() {
           <button className="btn btn-primary glass avatar join-item">
             <div className="w-8 rounded-full">
               <Link href="/profile">
-                <img src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/hero.png" />
+                <img src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/avatar.png" />
               </Link>
             </div>
           </button>
