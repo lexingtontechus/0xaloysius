@@ -1,4 +1,5 @@
 "use client";
+import { roboto_mono } from "../fonts";
 
 import Link from "next/link";
 export default function Terms() {
@@ -8,7 +9,7 @@ export default function Terms() {
         <div className="hero-content text-center text-zinc-900">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold"> Terms & Conditions</h1>
-            <p className="py-6" text-2xl>
+            <p className="py-6 text-2xl">
               Last Updated 1 Jan {new Date().getFullYear()}
             </p>
           </div>
@@ -21,51 +22,53 @@ export default function Terms() {
               <div className="text-sm">
                 These Terms of Use constitute a legally binding agreement made
                 between you, whether personally or on behalf of an entity
-                (“you”) and 0xaloysius LLC, doing business as 0xaloysius
-                (“0xaloysius“, “we”, “us”, or “our”), concerning your access to
-                and use of this website as well as any other media form, media
-                channel, mobile website or mobile application related, linked,
-                or otherwise connected thereto (collectively, the “Site”). The
-                Site provides an online marketplace for the following goods,
-                products, and/or services: Consulting, management & business
-                services (the “Marketplace Offerings”). In order to help make
-                the Site a secure environment for the purchase and sale of
-                Marketplace Offerings, all users are required to accept and
-                comply with these Terms of Use. You agree that by accessing the
-                Site and/or the Marketplace Offerings, you have read,
-                understood, and agree to be bound by all of these Terms of Use.
-                IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE
-                EXPRESSLY PROHIBITED FROM USING THE SITE AND/OR THE MARKETPLACE
-                OFFERINGS AND YOU MUST DISCONTINUE USE IMMEDIATELY. Supplemental
-                terms and conditions or documents that may be posted on the Site
-                from time to time are hereby expressly incorporated herein by
-                reference. We reserve the right, in our sole discretion, to make
-                changes or modifications to these Terms of Use at any time and
-                for any reason. We will alert you about any changes by updating
-                the “Last updated” date of these Terms of Use, and you waive any
-                right to receive specific notice of each such change. It is your
-                responsibility to periodically review these Terms of Use to stay
-                informed of updates. You will be subject to, and will be deemed
-                to have been made aware of and to have accepted, the changes in
-                any revised Terms of Use by your continued use of the Site after
-                the date such revised Terms of Use are posted. The information
-                provided on the Site is not intended for distribution to or use
-                by any person or entity in any jurisdiction or country where
-                such distribution or use would be contrary to law or regulation
-                or which would subject us to any registration requirement within
-                such jurisdiction or country. Accordingly, those persons who
-                choose to access the Site from other locations do so on their
-                own initiative and are solely responsible for compliance with
-                local laws, if and to the extent local laws are applicable. The
-                Site is not tailored to comply with industry-specific
-                regulations (Health Insurance Portability and Accountability Act
-                (HIPAA), Federal Information Security Management Act (FISMA),
-                etc.), so if your interactions would be subjected to such laws,
-                you may not use this Site. You may not use the Site in a way
-                that would violate the Gramm-Leach-Bliley Act (GLBA). The Site
-                is intended for users who are at least 18 years old. Persons
-                under the age of 18 are not permitted to use or register for the
-                Site or use the Marketplace Offerings.
+                (“you”) and <span className={roboto_mono.className}>0</span>
+                xaloysius LLC, doing business as <span className={roboto_mono.className}>0</span>
+                xaloysius (“<span className={roboto_mono.className}>0</span>xaloysius“, “we”, “us”, or “our”), concerning your
+                access to and use of this website as well as any other media
+                form, media channel, mobile website or mobile application
+                related, linked, or otherwise connected thereto (collectively,
+                the “Site”). The Site provides an online marketplace for the
+                following goods, products, and/or services: Consulting,
+                management & business services (the “Marketplace Offerings”). In
+                order to help make the Site a secure environment for the
+                purchase and sale of Marketplace Offerings, all users are
+                required to accept and comply with these Terms of Use. You agree
+                that by accessing the Site and/or the Marketplace Offerings, you
+                have read, understood, and agree to be bound by all of these
+                Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF
+                USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE
+                AND/OR THE MARKETPLACE OFFERINGS AND YOU MUST DISCONTINUE USE
+                IMMEDIATELY. Supplemental terms and conditions or documents that
+                may be posted on the Site from time to time are hereby expressly
+                incorporated herein by reference. We reserve the right, in our
+                sole discretion, to make changes or modifications to these Terms
+                of Use at any time and for any reason. We will alert you about
+                any changes by updating the “Last updated” date of these Terms
+                of Use, and you waive any right to receive specific notice of
+                each such change. It is your responsibility to periodically
+                review these Terms of Use to stay informed of updates. You will
+                be subject to, and will be deemed to have been made aware of and
+                to have accepted, the changes in any revised Terms of Use by
+                your continued use of the Site after the date such revised Terms
+                of Use are posted. The information provided on the Site is not
+                intended for distribution to or use by any person or entity in
+                any jurisdiction or country where such distribution or use would
+                be contrary to law or regulation or which would subject us to
+                any registration requirement within such jurisdiction or
+                country. Accordingly, those persons who choose to access the
+                Site from other locations do so on their own initiative and are
+                solely responsible for compliance with local laws, if and to the
+                extent local laws are applicable. The Site is not tailored to
+                comply with industry-specific regulations (Health Insurance
+                Portability and Accountability Act (HIPAA), Federal Information
+                Security Management Act (FISMA), etc.), so if your interactions
+                would be subjected to such laws, you may not use this Site. You
+                may not use the Site in a way that would violate the
+                Gramm-Leach-Bliley Act (GLBA). The Site is intended for users
+                who are at least 18 years old. Persons under the age of 18 are
+                not permitted to use or register for the Site or use the
+                Marketplace Offerings.
               </div>
             </div>
 
@@ -1026,7 +1029,7 @@ export default function Terms() {
                   contact us at:
                 </p>
                 <p>
-                  0xaloysius LLC.
+                <span className={roboto_mono.className}>0</span>xaloysius LLC.
                   <br />
                   16192 Coastal Highway
                   <br />

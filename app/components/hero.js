@@ -17,7 +17,7 @@ export default function Hero() {
             </div>
           </div>
           <h1 className="text-5xl font-bold mt-4">
-            WEB3 & Sustainable Ecosystems
+           WEB3 & Sustainable Ecosystems
           </h1>
           <h2 className="py-6 text-3xl">
             Transitioning to a world of new protocols, digital ownership and

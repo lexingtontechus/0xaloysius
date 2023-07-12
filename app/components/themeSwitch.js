@@ -12,10 +12,10 @@ const ThemeChanger = () => {
   if (!mounted) return null;
 
   return (
-    <div className="join-item">
+    <div className="join-item swap swap-rotate">
       {theme === "xlight" ? (
         <button
-          className="btn btn-primary glass fill-accent join-item"
+          className="btn btn-primary glass fill-accent join-item swap-on swap-active"
           onClick={() => setTheme("xdark")}
         >
           <span className="sr-only">Dark Mode</span>
@@ -23,7 +23,7 @@ const ThemeChanger = () => {
         </button>
       ) : (
         <button
-          className="btn btn-primary glass fill-accent join-item"
+          className="btn btn-primary glass fill-accent join-item swap-off"
           onClick={() => setTheme("xlight")}
         >
           <span className="sr-only">Light Mode</span>

@@ -34,13 +34,11 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Inter Tight", "Mukta", ...defaultTheme.fontFamily.sans],
-      stock: [defaultTheme.fontFamily.sans],
+      sans: ["Roboto Mono"],
+      mono: ["var(--font-roboto-mono)"],
     },
   },
-  variants: {
-    extend: {},
-  },
+  variants: ["slashed-zero", "ordinal"],
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
