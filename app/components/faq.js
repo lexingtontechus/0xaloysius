@@ -1,14 +1,21 @@
 "use client";
+import { Roboto_Mono } from "next/font/google";
+
+export const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function Faq() {
   return (
-    <main>
+    <main className="px-8 mx-auto max-w-xl">
       <div
         tabIndex={0}
         className="collapse collapse-arrow bg-secondary focus:bg-accent my-2"
       >
         <div className="collapse-title text-xl font-medium">
-          How do I work with 0xaloysius?
+          How do I work with <span className={roboto_mono.className}>0</span>
+          xaloysius?
         </div>
         <div className="collapse-content">
           <p>
@@ -22,7 +29,7 @@ export default function Faq() {
         className="collapse collapse-arrow bg-secondary focus:bg-accent my-2"
       >
         <div className="collapse-title text-xl font-medium">
-          Is 0xaloysius hiring?
+          Is <span className={roboto_mono.className}>0</span>xaloysius hiring?
         </div>
         <div className="collapse-content">
           <p>
@@ -37,7 +44,7 @@ export default function Faq() {
         className="collapse collapse-arrow bg-secondary focus:bg-accent my-2"
       >
         <div className="collapse-title text-xl font-medium">
-          Who is 0xaloysius?
+          Who is <span className={roboto_mono.className}>0</span>xaloysius?
         </div>
         <div className="collapse-content">
           <p>Book an introduction call with me!</p>

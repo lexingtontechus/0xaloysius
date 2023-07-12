@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import PrivacyCCPA from "./privacyCCPA";
-
+import { roboto_mono } from "../fonts";
 export default function Privacy() {
   return (
     <main className="mx-auto mb-8">
@@ -9,7 +9,7 @@ export default function Privacy() {
         <div className="hero-content text-center text-zinc-900">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Privacy Notice</h1>
-            <p className="py-6" text-2xl>
+            <p className="py-6 text-2xl">
               Last Updated 1 Jan {new Date().getFullYear()}
             </p>
           </div>
@@ -17,7 +17,7 @@ export default function Privacy() {
       </div>
 
       <section className="relative p-4 mb-8">
-        <div className="mx-auto px-8">
+        <div className="container mx-auto px-8">
           <div className="flex flex-wrap items-center">
             <div className="mx-auto w-full px-4">
               <div
@@ -27,15 +27,18 @@ export default function Privacy() {
                 <div className="collapse-title">1. GENERAL NOTICE</div>
                 <div className="collapse-content text-xs">
                   Thank you for choosing to be part of our community at
-                  0xaloysius LLC, doing business as 0xaloysius (&quot;0xaloysius
-                  LLC.,&quot; &quot;we,&quot; &quot;us,&quot; or
+                  <span className={roboto_mono.className}>0</span>xaloysius LLC,
+                  doing business as{" "}
+                  <span className={roboto_mono.className}>0</span>xaloysius
+                  (&quot;<span className={roboto_mono.className}>0</span>
+                  xaloysius LLC.,&quot; &quot;we,&quot; &quot;us,&quot; or
                   &quot;our&quot;). We are committed to protecting your personal
                   information and your right to privacy. If you have any
                   questions or concerns about this privacy notice or our
                   practices with regard to your personal information, please
-                  contact us at 0xaloysius@skiff.com. This privacy notice
-                  describes how we might use your information if you visit our
-                  website.
+                  contact us at <span className={roboto_mono.className}>0</span>
+                  xaloysius@skiff.com. This privacy notice describes how we
+                  might use your information if you visit our website.
                 </div>
               </div>
               <div
@@ -245,7 +248,9 @@ export default function Privacy() {
                     account and take reasonable measures to promptly delete such
                     data from our records. If you become aware of any data we
                     may have collected from children under age 18, please
-                    contact us at legal@0xaloysius.nft.
+                    contact us at legal@
+                    <span className={roboto_mono.className}>0</span>
+                    xaloysius.nft.
                   </p>
                 </div>
               </div>
@@ -317,7 +322,6 @@ export default function Privacy() {
                 </div>
                 <div className="collapse-content text-xs">
                   <p>
-                    {" "}
                     In Short: Yes, if you are a resident of California, you are
                     granted specific rights regarding access to your personal
                     information. California Civil Code Section 1798.83, also
@@ -369,7 +373,9 @@ export default function Privacy() {
                     to your inquiries. How do we use and share your personal
                     information? More information about our data collection and
                     sharing practices can be found in this privacy notice. You
-                    may contact us by email at legal@0xaloysius.nft, by visiting
+                    may contact us by email at legal@
+                    <span className={roboto_mono.className}>0</span>
+                    xaloysius.nft, by visiting
                     <span>
                       <Link href="/contact">Contact</Link>
                     </span>
@@ -455,8 +461,9 @@ export default function Privacy() {
                     parties. Upon receiving a request to opt-out, we will act
                     upon the request as soon as feasibly possible, but no later
                     than 15 days from the date of the request submission. To
-                    exercise these rights, you can contact us by email at
-                    legal@0xaloysius.nft, by visiting
+                    exercise these rights, you can contact us by email at legal@
+                    <span className={roboto_mono.className}>0</span>
+                    xaloysius.nft, by visiting
                     <span>
                       <Link href="/contact">Contact</Link>
                     </span>
@@ -504,10 +511,13 @@ export default function Privacy() {
                 <div className="collapse-content text-xs">
                   <p>
                     If you have questions or comments about this notice, you may
-                    email us at legal@0xaloysius.nft or by post to:
+                    email us at legal@
+                    <span className={roboto_mono.className}>0</span>
+                    xaloysius.nft or by post to:
                   </p>
                   <p>
-                    0xaloysius LLC.
+                    <span className={roboto_mono.className}>0</span>xaloysius
+                    LLC.
                     <br />
                     16192 Coastal Highway
                     <br />

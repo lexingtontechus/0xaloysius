@@ -2,8 +2,13 @@
 import Hero from "./components/hero";
 import SectionTitle from "./components/sectionTitle";
 import Faq from "./components/faq";
-import Cta from "./components/cta";
+import Portfolio from "./components/portfolio";
+import { Roboto_Mono } from "next/font/google";
 
+export const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+});
 const loader = ({ src, width, quality }) => {
   return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
     quality || 75
@@ -42,14 +47,15 @@ const Home = () => {
     <main>
       <Hero />
       <div className="px-8">
-        <SectionTitle pretitle="0x Stack" title="Portfolio Organizations">
-          The <span className="ordinal slashed-zero">0</span>x portfolio is
-          comprised of five (5) companies & one (1) non-profit. Each company is
-          focused on a specific mission and innovations within its industry.
+        <SectionTitle pretitle="The 0x Stack" title="Portfolio Organizations">
+          The <span className={roboto_mono.className}>0</span>x portfolio is
+          comprised of 5 companies & 1 non-profit. Each company is focused on a
+          specific mission and innovations in its industry.
         </SectionTitle>
-        <Cta />
+        <Portfolio />
         <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-          How to partner or work with 0xaloysius?
+          How to partner or work with <span className={roboto_mono}>0</span>
+          xaloysius?
         </SectionTitle>
         <Faq />
       </div>

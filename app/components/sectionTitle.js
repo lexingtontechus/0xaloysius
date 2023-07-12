@@ -1,4 +1,10 @@
 "use client";
+import { Roboto_Mono } from "next/font/google";
+
+export const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function SectionTitle(props) {
   return (
@@ -8,7 +14,9 @@ export default function SectionTitle(props) {
       }`}
     >
       {props.pretitle && (
-        <div className="text-md font-bold uppercase tracking-wider">
+        <div
+          className={`text-md font-bold uppercase tracking-wider ${roboto_mono.className}`}
+        >
           {props.pretitle}
         </div>
       )}

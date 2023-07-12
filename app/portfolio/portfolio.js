@@ -1,5 +1,12 @@
 "use client";
 import Link from "next/link";
+import { Roboto_Mono } from "next/font/google";
+
+export const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
+});
 
 export default function Portfolio() {
   return (
@@ -8,7 +15,9 @@ export default function Portfolio() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center">
           <div className="max-w-lg">
-            <h1 className="text-5xl font-bold uppercase">The 0x Mission</h1>
+            <h1 className="text-5xl font-bold uppercase">
+              The <span className={roboto_mono.className}>0</span>x Mission
+            </h1>
             <p className="py-6 font-semibold text-2xl">
               Support diversified investments in Southern Californian start-ups
               and communities to create sustainable, renewable & secure
@@ -25,24 +34,24 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className="container mx-auto my-8 px-8">
+      <div className="container mx-auto m-8 max-w-2xl">
         <div className="flex flex-wrap gap-4 content-center justify-center">
-          <div className="">
+          <div>
             <Card1 />
           </div>
-          <div className="">
+          <div>
             <Card2 />
           </div>
-          <div className="">
+          <div>
             <Card3 />
           </div>
-          <div className="">
+          <div>
             <Card4 />
           </div>
-          <div className="">
+          <div>
             <Card5 />
           </div>
-          <div className="">
+          <div>
             <Card6 />
           </div>
         </div>
@@ -58,7 +67,7 @@ function Card1() {
         <img
           src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
           alt="Lexington Tech LLC"
-          className="h-32 pt-2"
+          className="h-32 pt-4"
         />
       </figure>
       <div className="card-body">
@@ -66,28 +75,34 @@ function Card1() {
         <p>President</p>
         <p>Management Consultancy</p>
         <div className="card-actions justify-end">
-          <Link
-            href="https://lexingtontech.us"
-            target="_blank"
-            alt="Lexington Tech LLC."
-          >
-            <button className="btn btn-info btn-square">
-              <img
-                src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
-                alt="Lexington Tech LLC"
-                className="h-8 w-8"
-              />
-            </button>
-          </Link>
-          <Link
-            href="https://linkedin.com/company/lexingtontechus"
-            target="_blank"
-            alt="Lexington Tech | LinkedIn"
-          >
-            <button className="btn btn-info btn-square">
-              <LinkedIn />
-            </button>
-          </Link>
+          <ul className="menu menu-horizontal bg-secondary rounded-box">
+            <li>
+              <button className="btn btn-info btn-square mr-2">
+                <Link
+                  href="https://lexingtontech.us"
+                  target="_blank"
+                  alt="Lexington Tech LLC."
+                >
+                  <img
+                    src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lxt.svg"
+                    alt="Lexington Tech LLC"
+                    className="h-8 w-8"
+                  />
+                </Link>
+              </button>
+            </li>
+            <li>
+              <button className="btn btn-info btn-square">
+                <Link
+                  href="https://linkedin.com/company/lexingtontechus"
+                  target="_blank"
+                  alt="Lexington Tech | LinkedIn"
+                >
+                  <LinkedIn />{" "}
+                </Link>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -101,36 +116,42 @@ function Card2() {
         <img
           src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi-light.svg"
           alt="del SOL VENTURES INC."
-          className="h-32 pt-2"
+          className="h-32 pt-4"
         />
       </figure>
       <div className="card-body">
         <h2 className="card-title">del SOL VENTURES INC.</h2>
-        <p>Director</p>
+        <p>Investor</p>
         <p>Venture Capital & Investment</p>
         <div className="card-actions justify-end">
-          <Link
-            href="https://delsolventures.nft"
-            target="_blank"
-            alt="del SOL VENTURES"
-          >
-            <button className="btn btn-info btn-square">
-              <img
-                src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi-light.svg"
-                alt="del SOL VENTURES INC."
-                className="h-8 w-8"
-              />
-            </button>
-          </Link>
-          <Link
-            href="https://linkedin.com/company/delsolventures"
-            target="_blank"
-            alt="del SOL VENTURES | LinkedIn"
-          >
-            <button className="btn btn-info btn-square">
-              <LinkedIn />
-            </button>
-          </Link>
+          <ul className="menu menu-horizontal bg-secondary rounded-box">
+            <li>
+              <button className="btn btn-info btn-square mr-2">
+                <Link
+                  href="https://delsolventures.nft"
+                  target="_blank"
+                  alt="del SOL VENTURES"
+                >
+                  <img
+                    src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-dsvi-light.svg"
+                    alt="del SOL VENTURES INC."
+                    className="h-8 w-8"
+                  />
+                </Link>
+              </button>
+            </li>
+            <li>
+              <button className="btn btn-info btn-square">
+                <Link
+                  href="https://linkedin.com/company/delsolventures"
+                  target="_blank"
+                  alt="del SOL VENTURES | LinkedIn"
+                >
+                  <LinkedIn />
+                </Link>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -144,7 +165,7 @@ function Card3() {
         <img
           src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-4mobeers.svg"
           alt="Lexington Tech LLC"
-          className="h-32 pt-2"
+          className="h-32 pt-4"
         />
       </figure>
       <div className="card-body">
@@ -187,7 +208,7 @@ function Card4() {
         <img
           src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lasplayas.svg"
           alt="Lexington Tech LLC"
-          className="h-32 pt-2"
+          className="h-32 pt-4"
         />
       </figure>
       <div className="card-body">
@@ -195,28 +216,34 @@ function Card4() {
         <p>Investor</p>
         <p>Food, Beverage & Entertainment</p>
         <div className="card-actions justify-end">
-          <Link
-            href="https://lasplayas.nft"
-            target="_blank"
-            alt="Las Playas Inc. | LinkedIn"
-          >
-            <button className="btn btn-info btn-square">
-              <img
-                src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lasplayas.svg"
-                alt="Lexington Tech LLC"
-                className="h-8 w-8"
-              />
-            </button>
-          </Link>
-          <Link
-            href="https://linkedin.com/company/lasplayas"
-            target="_blank"
-            alt="Las Playas Inc. | LinkedIn"
-          >
-            <button className="btn btn-info btn-square">
-              <LinkedIn />
-            </button>
-          </Link>
+          <ul className="menu menu-horizontal bg-secondary rounded-box">
+            <li>
+              <button className="btn btn-info btn-square mr-2">
+                <Link
+                  href="https://lasplayas.nft"
+                  target="_blank"
+                  alt="Las Playas Inc. | LinkedIn"
+                >
+                  <img
+                    src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-lasplayas.svg"
+                    alt="Lexington Tech LLC"
+                    className="h-8 w-8"
+                  />
+                </Link>
+              </button>
+            </li>
+            <li>
+              <button className="btn btn-info btn-square">
+                <Link
+                  href="https://linkedin.com/company/lasplayas"
+                  target="_blank"
+                  alt="Las Playas Inc. | LinkedIn"
+                >
+                  <LinkedIn />
+                </Link>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -230,7 +257,7 @@ function Card5() {
         <img
           src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
           alt="Sunset Ventures Inc."
-          className="h-32 pt-2"
+          className="h-32 pt-4"
         />
       </figure>
       <div className="card-body">
@@ -238,28 +265,34 @@ function Card5() {
         <p>Investor</p>
         <p>Quantitative Investment</p>
         <div className="card-actions justify-end">
-          <Link
-            href="https://sunsetventures.nft"
-            target="_blank"
-            alt="Sunset Ventures Inc."
-          >
-            <button className="btn btn-info btn-square">
-              <img
-                src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
-                alt="Sunset Ventures Inc."
-                className="h-8 w-8"
-              />
-            </button>
-          </Link>
-          <Link
-            href="https://linkedin.com/company/sunsetventuresinc"
-            target="_blank"
-            alt="Sunset Ventures Inc. | LinkedIn"
-          >
-            <button className="btn btn-info btn-square">
-              <LinkedIn />
-            </button>
-          </Link>
+          <ul className="menu menu-horizontal bg-secondary rounded-box">
+            <li>
+              <button className="btn btn-info btn-square mr-2">
+                <Link
+                  href="https://sunsetventures.nft"
+                  target="_blank"
+                  alt="Sunset Ventures Inc."
+                >
+                  <img
+                    src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-sunset.svg"
+                    alt="Sunset Ventures Inc."
+                    className="h-8 w-8"
+                  />
+                </Link>
+              </button>
+            </li>
+            <li>
+              <button className="btn btn-info btn-square">
+                <Link
+                  href="https://linkedin.com/company/sunsetventuresinc"
+                  target="_blank"
+                  alt="Sunset Ventures Inc. | LinkedIn"
+                >
+                  <LinkedIn />
+                </Link>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -273,7 +306,7 @@ function Card6() {
         <img
           src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
           alt="SAVI"
-          className="h-32 pt-2"
+          className="h-32 pt-4"
         />
       </figure>
       <div className="card-body">
@@ -281,24 +314,30 @@ function Card6() {
         <p>Board Member</p>
         <p> Veteran Transition & Benefits</p>
         <div className="card-actions justify-end">
-          <Link href="https://savivets.org" target="_blank" alt="SAVI">
-            <button className="btn btn-info btn-square">
-              <img
-                src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
-                alt="SAVI"
-                className="h-8 w-8"
-              />
-            </button>
-          </Link>
-          <Link
-            href="https://linkedin.com/company/savivets"
-            target="_blank"
-            alt="SAVI | LinkedIn"
-          >
-            <button className="btn btn-info btn-square">
-              <LinkedIn />
-            </button>
-          </Link>
+          <ul className="menu menu-horizontal bg-secondary rounded-box">
+            <li>
+              <button className="btn btn-info btn-square mr-2">
+                <Link href="https://savivets.org" target="_blank" alt="SAVI">
+                  <img
+                    src="https://storage.fleek-internal.com/47c43c10-6c0c-4b3b-a520-683839c214cf-bucket/assets/img/logo-savi.svg"
+                    alt="SAVI"
+                    className="h-8 w-8"
+                  />
+                </Link>
+              </button>
+            </li>
+            <li>
+              <button className="btn btn-info btn-square">
+                <Link
+                  href="https://linkedin.com/company/savivets"
+                  target="_blank"
+                  alt="SAVI | LinkedIn"
+                >
+                  <LinkedIn />
+                </Link>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
