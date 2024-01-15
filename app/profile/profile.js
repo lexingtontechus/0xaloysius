@@ -35,9 +35,9 @@ export default function Profile() {
             </p>
             <p className="py-4 text-2xl font-bold">LOS ANGELES, CALIFORNIA.</p>
 
-            <ul className="my-4 py-4 menu menu-horizontal bg-secondary rounded-box">
+            <ul className="p-4 join">
               <li>
-                <button className="btn btn-info btn-square mr-1 mb-1">
+                <button className="btn btn-info btn-square join-item">
                   <Link
                     href="https://www.linkedin.com/in/0xaloysius/"
                     target="_blank"
@@ -48,20 +48,9 @@ export default function Profile() {
                   </Link>
                 </button>
               </li>
+
               <li>
-                <button className="btn btn-info btn-square mr-1 mb-1">
-                  <Link
-                    href="https://www.linkedin.com/company/0xaloysius/"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="0xaloysius | LinkedIn Company"
-                  >
-                    <LinkedIn />
-                  </Link>
-                </button>
-              </li>
-              <li>
-                <button className="btn btn-info btn-square mr-1 mb-1">
+                <button className="btn btn-info btn-square join-item">
                   <Link
                     href="https://ud.me/0xaloysius.x"
                     target="_blank"

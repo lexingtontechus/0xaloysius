@@ -19,20 +19,7 @@ module.exports = {
     "footer-texture": "url('/img/footer-texture.png')",
   },
   theme: {
-    extend: {
-      colors: {
-        gray: colors.gray,
-        amber: colors.amber,
-        orange: colors.orange,
-        sky: colors.sky,
-        red: colors.red,
-        purple: colors.purple,
-        zinc: colors.zinc,
-        emerald: colors.emerald,
-        blue: colors.blue,
-        yellow: colors.yellow,
-      },
-    },
+    extend: {},
     fontFamily: {
       sans: ["Roboto Mono"],
       mono: ["var(--font-roboto-mono)"],
