@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   basePath: "",
-  output: 'export',
+  output: "export",
   reactStrictMode: true,
-  trailingSlash: true,  
+  trailingSlash: true,
   images: {
-    unoptimized: true,  
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
